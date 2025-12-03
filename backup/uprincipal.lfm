@@ -1,0 +1,18 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 350
+  Height = 521
+  Top = 250
+  Width = 947
+  Caption = 'FrmPrincipal'
+  ClientHeight = 521
+  ClientWidth = 947
+  object pnlTopo: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 947
+    Align = alTop
+    BevelOuter = bvNone
+    TabOrder = 0
+  end
+end
