@@ -12,7 +12,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="21"/>
+        <UsageCount Value="22"/>
       </Unit>
       <Unit>
         <Filename Value="uprincipal.pas"/>
@@ -21,15 +21,58 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uPrincipal"/>
+        <TopLine Value="23"/>
+        <CursorPos X="22" Y="55"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ulivros.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmLivros"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uLivros"/>
         <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="8"/>
+        <CursorPos X="6" Y="38"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="datamodule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DataModule1"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="DataModule"/>
+        <EditorIndex Value="2"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory>
+    <JumpHistory HistoryIndex="5">
       <Position>
         <Filename Value="uprincipal.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="datamodule.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="ulivros.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="22" Column="129"/>
+      </Position>
+      <Position>
+        <Filename Value="ulivros.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="ulivros.pas"/>
+        <Caret Line="39" Column="41" TopLine="7"/>
       </Position>
     </JumpHistory>
     <RunParams>

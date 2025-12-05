@@ -1,0 +1,216 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 456
+  HorizontalOffset = 350
+  VerticalOffset = 250
+  Width = 636
+  object Connection: TIBConnection
+    Connected = True
+    LoginPrompt = False
+    DatabaseName = 'C:\Projetos\Cadastro de Livros - Lazarus\MYBOOKS.FDB'
+    KeepConnection = False
+    Password = 'masterkey'
+    Transaction = SQLTransaction1
+    UserName = 'SYSDBA'
+    HostName = 'localhost'
+    CheckTransactionParams = False
+    UseConnectionCharSetIfNone = False
+    Left = 32
+    Top = 24
+  end
+  object QryLivros: TSQLQuery
+    FieldDefs = <    
+      item
+        Name = 'ID'
+        DataType = ftInteger
+        Precision = -1
+      end    
+      item
+        Name = 'NOME'
+        DataType = ftString
+        Precision = -1
+        Size = 100
+      end    
+      item
+        Name = 'IDEDITORA'
+        DataType = ftInteger
+        Precision = -1
+      end    
+      item
+        Name = 'IDCATEGORIA'
+        DataType = ftInteger
+        Precision = -1
+      end    
+      item
+        Name = 'ANO'
+        DataType = ftString
+        Precision = -1
+        Size = 10
+      end    
+      item
+        Name = 'DATAAQUISICAO'
+        DataType = ftDate
+        Precision = -1
+      end    
+      item
+        Name = 'SINOPSE'
+        DataType = ftString
+        Precision = -1
+        Size = 300
+      end    
+      item
+        Name = 'ISBN'
+        DataType = ftString
+        Precision = -1
+        Size = 20
+      end    
+      item
+        Name = 'IDUSUARIO'
+        DataType = ftInteger
+        Precision = -1
+      end    
+      item
+        Name = 'IMAGEM'
+        DataType = ftBlob
+        Precision = -1
+        Size = 8
+      end    
+      item
+        Name = 'QTDPAGINAS'
+        DataType = ftInteger
+        Precision = -1
+      end    
+      item
+        Name = 'IDAUTOR'
+        DataType = ftInteger
+        Precision = -1
+      end>
+    Database = Connection
+    Transaction = SQLTransaction1
+    SQL.Strings = (
+      'SELECT * FROM LIVRO'
+    )
+    Params = <>
+    Macros = <>
+    Left = 128
+    Top = 24
+    object QryLivrosID: TLongintField
+      FieldKind = fkData
+      FieldName = 'ID'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+    end
+    object QryLivrosNOME: TStringField
+      FieldKind = fkData
+      FieldName = 'NOME'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+      Size = 100
+    end
+    object QryLivrosIDEDITORA: TLongintField
+      FieldKind = fkData
+      FieldName = 'IDEDITORA'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object QryLivrosIDCATEGORIA: TLongintField
+      FieldKind = fkData
+      FieldName = 'IDCATEGORIA'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object QryLivrosANO: TStringField
+      FieldKind = fkData
+      FieldName = 'ANO'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 10
+    end
+    object QryLivrosDATAAQUISICAO: TDateField
+      FieldKind = fkData
+      FieldName = 'DATAAQUISICAO'
+      Index = 5
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object QryLivrosSINOPSE: TStringField
+      FieldKind = fkData
+      FieldName = 'SINOPSE'
+      Index = 6
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 300
+    end
+    object QryLivrosISBN: TStringField
+      FieldKind = fkData
+      FieldName = 'ISBN'
+      Index = 7
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object QryLivrosIDUSUARIO: TLongintField
+      FieldKind = fkData
+      FieldName = 'IDUSUARIO'
+      Index = 8
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object QryLivrosIMAGEM: TBlobField
+      FieldKind = fkData
+      FieldName = 'IMAGEM'
+      Index = 9
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 8
+    end
+    object QryLivrosQTDPAGINAS: TLongintField
+      FieldKind = fkData
+      FieldName = 'QTDPAGINAS'
+      Index = 10
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object QryLivrosIDAUTOR: TLongintField
+      FieldKind = fkData
+      FieldName = 'IDAUTOR'
+      Index = 11
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = True
+    Database = Connection
+    Left = 216
+    Top = 24
+  end
+end

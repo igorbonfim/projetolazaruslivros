@@ -1,0 +1,55 @@
+object FrmLivros: TFrmLivros
+  Left = 350
+  Height = 622
+  Top = 250
+  Width = 1125
+  Caption = 'Cadastro de Livros'
+  ClientHeight = 622
+  ClientWidth = 1125
+  OnCreate = FormCreate
+  object pnlTopo: TPanel
+    Left = 0
+    Height = 80
+    Top = 0
+    Width = 1125
+    Align = alTop
+    BevelOuter = bvNone
+    TabOrder = 0
+  end
+  object pnlRodape: TPanel
+    Left = 0
+    Height = 50
+    Top = 572
+    Width = 1125
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 1
+  end
+  object pnlCenter: TPanel
+    Left = 0
+    Height = 492
+    Top = 80
+    Width = 1125
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 492
+    ClientWidth = 1125
+    TabOrder = 2
+    object DBGrid1: TDBGrid
+      Left = 0
+      Height = 492
+      Top = 0
+      Width = 1125
+      Align = alClient
+      Color = clWindow
+      Columns = <>
+      DataSource = dsLivros
+      TabOrder = 0
+    end
+  end
+  object dsLivros: TDataSource
+    DataSet = DataModule1.QryLivros
+    Left = 384
+    Top = 192
+  end
+end

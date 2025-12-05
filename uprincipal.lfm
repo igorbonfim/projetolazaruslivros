@@ -240,6 +240,7 @@ object FrmPrincipal: TFrmPrincipal
         Align = alLeft
         Caption = 'Livros'
         Flat = True
+        OnClick = btnLivrosClick
       end
     end
   end

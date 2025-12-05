@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, uPrincipal, runtimetypeinfocontrols
+  Forms, uPrincipal, runtimetypeinfocontrols, uLivros, DataModule
   { you can add units after this };
 
 {$R *.res}
@@ -20,6 +20,7 @@ begin
   Application.Scaled:=True;
   Application.Initialize;
   Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.CreateForm(TDataModule1, DataModule1);
   Application.Run;
 end.
 
