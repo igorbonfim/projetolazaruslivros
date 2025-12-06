@@ -55,6 +55,7 @@
         <Filename Value="ulivros.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmLivros"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uLivros"/>
       </Unit>
@@ -62,6 +63,7 @@
         <Filename Value="datamodule.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DataModule1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="DataModule"/>
       </Unit>

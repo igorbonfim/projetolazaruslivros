@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, EditBtn,
-  Buttons, Menus, ButtonPanel, RTTICtrls;
+  Buttons, Menus, ButtonPanel, uLivros, RTTICtrls;
 
 type
 
@@ -30,6 +30,7 @@ type
     btnCategorias: TSpeedButton;
     btnEditoras: TSpeedButton;
     btnLivros: TSpeedButton;
+    procedure btnLivrosClick(Sender: TObject);
   private
 
   public
@@ -42,6 +43,18 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TFrmPrincipal }
+
+procedure TFrmPrincipal.btnLivrosClick(Sender: TObject);
+begin
+  try
+    FrmLivros := TFrmLivros.Create(nil);
+    FrmLivros.ShowModal;
+  finally
+    FrmLivros.Release;
+  end;
+end;
 
 end.
 
