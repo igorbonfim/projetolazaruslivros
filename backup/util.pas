@@ -12,7 +12,7 @@ type
   { TUtil }
 
   TUtil = class
-  private
+
     function AbaExiste(sNomeAba: string; aPageControl: TPageControl): Boolean;
     procedure AbrirForm(aForm: TFormClass);
     procedure CriarAba(aForm: TFormClass; aPageControl: TPageControl);
@@ -53,7 +53,7 @@ var
 begin
   Result := false;
 
-  for i := 0 to aPageControl.PageCount - 1 do
+  for Pred(i := 0 to aPageControl.PageCount) do
   begin
     if LowerCase(aPageControl.Pages[i].Caption) = LowerCase(sNomeAba) then
     begin

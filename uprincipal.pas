@@ -19,6 +19,7 @@ type
     MenuItem3: TMenuItem;
     MenuItem4: TMenuItem;
     MenuItem5: TMenuItem;
+    pnlSair: TPanel;
     pgcPrincipal: TPageControl;
     pnlConteudo: TPanel;
     pnlLivros: TPanel;
@@ -31,7 +32,9 @@ type
     btnCategorias: TSpeedButton;
     btnEditoras: TSpeedButton;
     btnLivros: TSpeedButton;
+    btnSair: TSpeedButton;
     procedure btnLivrosClick(Sender: TObject);
+    procedure btnSairClick(Sender: TObject);
   private
 
   public
@@ -50,6 +53,11 @@ implementation
 procedure TFrmPrincipal.btnLivrosClick(Sender: TObject);
 begin
   Util.CriarAba(TFrmLivros, pgcPrincipal)
+end;
+
+procedure TFrmPrincipal.btnSairClick(Sender: TObject);
+begin
+  Application.Terminate;
 end;
 
 end.

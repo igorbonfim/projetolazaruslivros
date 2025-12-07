@@ -6,16 +6,20 @@ interface
 
 uses
   Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, ExtCtrls, DBGrids,
-  StdCtrls, DataModule, Util;
+  StdCtrls, Buttons, DataModule, Util;
 
 type
 
   { TFrmLivros }
 
   TFrmLivros = class(TForm)
-    btnFechar: TButton;
+    btnExcluir: TBitBtn;
+    btnIncluir: TBitBtn;
+    btnFechar: TBitBtn;
+    btnAlterar: TBitBtn;
     dsLivros: TDataSource;
-    DBGrid1: TDBGrid;
+    grdLivros: TDBGrid;
+    edtPesquisar: TLabeledEdit;
     pnlCenter: TPanel;
     pnlRodape: TPanel;
     pnlTopo: TPanel;

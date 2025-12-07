@@ -26,6 +26,9 @@
     </RunParams>
     <RequiredPackages>
       <Item>
+        <PackageName Value="Printer4Lazarus"/>
+      </Item>
+      <Item>
         <PackageName Value="FCL"/>
       </Item>
       <Item>
@@ -66,6 +69,18 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="DataModule"/>
+      </Unit>
+      <Unit>
+        <Filename Value="util.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Util"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uheranca.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uHeranca"/>
       </Unit>
     </Units>
   </ProjectOptions>
