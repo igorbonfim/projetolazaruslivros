@@ -3,7 +3,7 @@ object FrmLivros: TFrmLivros
   Height = 622
   Top = 250
   Width = 1125
-  Caption = 'Cadastro de Livros'
+  Caption = 'Livros'
   ClientHeight = 622
   ClientWidth = 1125
   OnCreate = FormCreate
@@ -23,7 +23,19 @@ object FrmLivros: TFrmLivros
     Width = 1125
     Align = alBottom
     BevelOuter = bvNone
+    ClientHeight = 50
+    ClientWidth = 1125
     TabOrder = 1
+    object btnFechar: TButton
+      Left = 1050
+      Height = 50
+      Top = 0
+      Width = 75
+      Align = alRight
+      Caption = 'Fechar'
+      TabOrder = 0
+      OnClick = btnFecharClick
+    end
   end
   object pnlCenter: TPanel
     Left = 0

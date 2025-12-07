@@ -6,23 +6,25 @@ interface
 
 uses
   Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, ExtCtrls, DBGrids,
-  DataModule;
+  StdCtrls, DataModule, Util;
 
 type
 
   { TFrmLivros }
 
   TFrmLivros = class(TForm)
+    btnFechar: TButton;
     dsLivros: TDataSource;
     DBGrid1: TDBGrid;
     pnlCenter: TPanel;
     pnlRodape: TPanel;
     pnlTopo: TPanel;
+    procedure btnFecharClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
 
   public
-
+    Util: TUTil;
   end;
 
 var
@@ -36,8 +38,12 @@ implementation
 
 procedure TFrmLivros.FormCreate(Sender: TObject);
 begin
-  DataModule.DataModule1.QryLivros.Close;
   DataModule.DataModule1.QryLivros.Open;
+end;
+
+procedure TFrmLivros.btnFecharClick(Sender: TObject);
+begin
+  Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
 end;
 
 end.

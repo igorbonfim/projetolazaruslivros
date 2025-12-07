@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, EditBtn,
-  Buttons, Menus, ButtonPanel, uLivros, RTTICtrls;
+  Buttons, Menus, ButtonPanel, ComCtrls, uLivros, Util, RTTICtrls, PrintersDlgs;
 
 type
 
@@ -19,6 +19,7 @@ type
     MenuItem3: TMenuItem;
     MenuItem4: TMenuItem;
     MenuItem5: TMenuItem;
+    pgcPrincipal: TPageControl;
     pnlConteudo: TPanel;
     pnlLivros: TPanel;
     pnlEditoras: TPanel;
@@ -34,7 +35,7 @@ type
   private
 
   public
-
+    Util: TUtil;
   end;
 
 var
@@ -48,12 +49,7 @@ implementation
 
 procedure TFrmPrincipal.btnLivrosClick(Sender: TObject);
 begin
-  try
-    FrmLivros := TFrmLivros.Create(nil);
-    FrmLivros.ShowModal;
-  finally
-    FrmLivros.Release;
-  end;
+  Util.CriarAba(TFrmLivros, pgcPrincipal)
 end;
 
 end.

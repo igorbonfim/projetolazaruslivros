@@ -10,7 +10,8 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, uPrincipal, runtimetypeinfocontrols, uLivros, DataModule
+  Forms, uPrincipal, runtimetypeinfocontrols, printer4lazarus, uLivros,
+  DataModule, Util
   { you can add units after this };
 
 {$R *.res}

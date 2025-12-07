@@ -5,9 +5,9 @@ object DataModule1: TDataModule1
   VerticalOffset = 250
   Width = 636
   object Connection: TIBConnection
-    Connected = True
+    Connected = False
     LoginPrompt = False
-    DatabaseName = 'C:\Projetos\Cadastro de Livros - Lazarus\MYBOOKS.FDB'
+    DatabaseName = 'C:\Projetos\Cadastro de Livros - Lazarus\database\MYBOOKS.FDB'
     KeepConnection = False
     Password = 'masterkey'
     Transaction = SQLTransaction1
@@ -93,7 +93,7 @@ object DataModule1: TDataModule1
     )
     Params = <>
     Macros = <>
-    Left = 128
+    Left = 125
     Top = 24
     object QryLivrosID: TLongintField
       FieldKind = fkData
@@ -209,7 +209,7 @@ object DataModule1: TDataModule1
     end
   end
   object SQLTransaction1: TSQLTransaction
-    Active = True
+    Active = False
     Database = Connection
     Left = 216
     Top = 24

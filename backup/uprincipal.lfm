@@ -1,21 +1,23 @@
 object FrmPrincipal: TFrmPrincipal
-  Left = 350
-  Height = 578
-  Top = 250
-  Width = 1012
+  Left = -8
+  Height = 617
+  Top = -8
+  Width = 1028
   Caption = 'FrmPrincipal'
-  ClientHeight = 578
-  ClientWidth = 1012
+  ClientHeight = 856
+  ClientWidth = 1370
   Menu = MainMenu1
+  Position = poScreenCenter
+  WindowState = wsMaximized
   object pnlTopo: TPanel
     Left = 0
     Height = 80
     Top = 0
-    Width = 1012
+    Width = 1370
     Align = alTop
     BevelOuter = bvNone
     ClientHeight = 80
-    ClientWidth = 1012
+    ClientWidth = 1370
     TabOrder = 0
     object pnlAutores: TPanel
       Left = 0
@@ -423,20 +425,30 @@ object FrmPrincipal: TFrmPrincipal
   object pnlRodape: TPanel
     Left = 0
     Height = 50
-    Top = 528
-    Width = 1012
+    Top = 806
+    Width = 1370
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 1
   end
   object pnlConteudo: TPanel
     Left = 0
-    Height = 448
+    Height = 726
     Top = 80
-    Width = 1012
+    Width = 1370
     Align = alClient
     BevelOuter = bvNone
+    ClientHeight = 726
+    ClientWidth = 1370
     TabOrder = 2
+    object pgcPrincipal: TPageControl
+      Left = 0
+      Height = 726
+      Top = 0
+      Width = 1370
+      Align = alClient
+      TabOrder = 0
+    end
   end
   object MainMenu1: TMainMenu
     Left = 864
