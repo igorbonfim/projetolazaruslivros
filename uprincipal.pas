@@ -64,7 +64,8 @@ end;
 
 procedure TFrmPrincipal.btnSairClick(Sender: TObject);
 begin
-  Application.Terminate;
+  if(MessageDlg('Deseja encerrar a aplicação?', mtConfirmation, [mbYes, mbNo], 0) = mrYes) then
+    Application.Terminate;
 end;
 
 end.

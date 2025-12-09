@@ -1,11 +1,11 @@
 object FrmPrincipal: TFrmPrincipal
   Left = -8
-  Height = 734
+  Height = 773
   Top = -8
-  Width = 1076
+  Width = 1092
   Caption = 'FrmPrincipal'
-  ClientHeight = 731
-  ClientWidth = 1076
+  ClientHeight = 770
+  ClientWidth = 1092
   Menu = MainMenu1
   Position = poScreenCenter
   WindowState = wsMaximized
@@ -13,11 +13,11 @@ object FrmPrincipal: TFrmPrincipal
     Left = 0
     Height = 80
     Top = 0
-    Width = 1076
+    Width = 1092
     Align = alTop
     BevelOuter = bvNone
     ClientHeight = 80
-    ClientWidth = 1076
+    ClientWidth = 1092
     TabOrder = 0
     object pnlAutores: TPanel
       Left = 0
@@ -118,6 +118,7 @@ object FrmPrincipal: TFrmPrincipal
           0000000000000000000000000000000000000000000000000000
         }
         Layout = blGlyphTop
+        OnClick = btnAutoresClick
       end
     end
     object pnlCategorias: TPanel
@@ -422,7 +423,7 @@ object FrmPrincipal: TFrmPrincipal
       end
     end
     object pnlSair: TPanel
-      Left = 980
+      Left = 996
       Height = 80
       Top = 0
       Width = 96
@@ -526,27 +527,27 @@ object FrmPrincipal: TFrmPrincipal
   object pnlRodape: TPanel
     Left = 0
     Height = 21
-    Top = 710
-    Width = 1076
+    Top = 749
+    Width = 1092
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 1
   end
   object pnlConteudo: TPanel
     Left = 0
-    Height = 630
+    Height = 669
     Top = 80
-    Width = 1076
+    Width = 1092
     Align = alClient
     BevelOuter = bvNone
-    ClientHeight = 630
-    ClientWidth = 1076
+    ClientHeight = 669
+    ClientWidth = 1092
     TabOrder = 2
     object pgcPrincipal: TPageControl
       Left = 0
-      Height = 630
+      Height = 669
       Top = 0
-      Width = 1076
+      Width = 1092
       Align = alClient
       TabOrder = 0
     end
