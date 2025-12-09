@@ -18,17 +18,17 @@ type
     btnIncluir: TBitBtn;
     btnFechar: TBitBtn;
     btnAlterar: TBitBtn;
-    dsLivros: TDataSource;
-    grdLivros: TDBGrid;
     edtPesquisar: TLabeledEdit;
     pnlCenter: TPanel;
     pnlRodape: TPanel;
     pnlTopo: TPanel;
+    grdListagem: TDBGrid;
     procedure btnFecharClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
 
   public
-   Util: TUtil;
+    Util: TUtil;
   end;
 
 var
@@ -45,6 +45,11 @@ uses uPrincipal;
 procedure TFrmAutor.btnFecharClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
+end;
+
+procedure TFrmAutor.FormCreate(Sender: TObject);
+begin
+  DataModule.DataModule1.QryAutor.Open;
 end;
 
 end.

@@ -5,7 +5,7 @@ unit uHeranca;
 interface
 
 uses
-  Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, ExtCtrls;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls;
 
 type
 

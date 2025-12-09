@@ -424,6 +424,7 @@ object FrmLivros: TFrmLivros
           FieldName = 'QTDPAGINAS'
         end>
       DataSource = dsLivros
+      Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgCancelOnExit]
       TabOrder = 0
     end
   end

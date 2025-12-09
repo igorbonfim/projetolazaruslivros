@@ -1,0 +1,32 @@
+inherited FrmEditora: TFrmEditora
+  Caption = 'Editoras'
+  OnCreate = FormCreate
+  inherited pnlRodape: TPanel
+    inherited btnFechar: TBitBtn
+      OnClick = btnFecharClick
+    end
+  end
+  inherited pnlCenter: TPanel
+    inherited grdListagem: TDBGrid
+      Columns = <      
+        item
+          PickList.Strings = (          )
+          Title.Caption = 'ID'
+          FieldName = 'ID'
+        end      
+        item
+          PickList.Strings = (          )
+          Title.Caption = 'Descrição'
+          Width = 250
+          FieldName = 'DESCRICAO'
+        end>
+      DataSource = dsEditora
+      Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    end
+  end
+  object dsEditora: TDataSource[3]
+    DataSet = DataModule1.QryEditora
+    Left = 400
+    Top = 214
+  end
+end

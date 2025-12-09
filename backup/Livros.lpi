@@ -91,6 +91,22 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uAutor"/>
       </Unit>
+      <Unit>
+        <Filename Value="ueditora.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmEditora"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uEditora"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ucategoria.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmCategoria"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uCategoria"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

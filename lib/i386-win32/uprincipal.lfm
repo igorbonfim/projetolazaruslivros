@@ -219,6 +219,7 @@ object FrmPrincipal: TFrmPrincipal
           0000000000000000000000000000000000000000000000000000
         }
         Layout = blGlyphTop
+        OnClick = btnCategoriasClick
       end
     end
     object pnlEditoras: TPanel
@@ -319,6 +320,7 @@ object FrmPrincipal: TFrmPrincipal
           0000000000000000000000000000000000000000000000000000
         }
         Layout = blGlyphTop
+        OnClick = btnEditorasClick
       end
     end
     object pnlLivros: TPanel

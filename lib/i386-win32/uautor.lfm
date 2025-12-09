@@ -1,5 +1,6 @@
 inherited FrmAutor: TFrmAutor
   Caption = 'Autores'
+  OnCreate = FormCreate
   inherited pnlRodape: TPanel
     inherited btnFechar: TBitBtn
       OnClick = btnFecharClick

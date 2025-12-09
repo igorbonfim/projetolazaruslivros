@@ -13,8 +13,14 @@ type
 
   TDataModule1 = class(TDataModule)
     Connection: TIBConnection;
+    QryCategoriaDESCRICAO: TStringField;
+    QryCategoriaID: TLongintField;
+    QryEditora: TSQLQuery;
     QryAutorDESCRICAO: TStringField;
+    QryAutorDESCRICAO1: TStringField;
     QryAutorID: TLongintField;
+    QryAutorID1: TLongintField;
+    QryCategoria: TSQLQuery;
     QryLivros: TSQLQuery;
     QryAutor: TSQLQuery;
     QryLivrosANO: TStringField;

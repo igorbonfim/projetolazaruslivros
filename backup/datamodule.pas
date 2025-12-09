@@ -13,32 +13,28 @@ type
 
   TDataModule1 = class(TDataModule)
     Connection: TIBConnection;
+    QryCategoriaDESCRICAO: TStringField;
+    QryCategoriaID: TLongintField;
+    QryEditora: TSQLQuery;
+    QryAutorDESCRICAO: TStringField;
+    QryAutorDESCRICAO1: TStringField;
+    QryAutorID: TLongintField;
+    QryAutorID1: TLongintField;
+    QryCategoria: TSQLQuery;
     QryLivros: TSQLQuery;
     QryAutor: TSQLQuery;
     QryLivrosANO: TStringField;
-    QryLivrosANO1: TStringField;
     QryLivrosDATAAQUISICAO: TDateField;
-    QryLivrosDATAAQUISICAO1: TDateField;
     QryLivrosID: TLongintField;
-    QryLivrosID1: TLongintField;
     QryLivrosIDAUTOR: TLongintField;
-    QryLivrosIDAUTOR1: TLongintField;
     QryLivrosIDCATEGORIA: TLongintField;
-    QryLivrosIDCATEGORIA1: TLongintField;
     QryLivrosIDEDITORA: TLongintField;
-    QryLivrosIDEDITORA1: TLongintField;
     QryLivrosIDUSUARIO: TLongintField;
-    QryLivrosIDUSUARIO1: TLongintField;
     QryLivrosIMAGEM: TBlobField;
-    QryLivrosIMAGEM1: TBlobField;
     QryLivrosISBN: TStringField;
-    QryLivrosISBN1: TStringField;
     QryLivrosNOME: TStringField;
-    QryLivrosNOME1: TStringField;
     QryLivrosQTDPAGINAS: TLongintField;
-    QryLivrosQTDPAGINAS1: TLongintField;
     QryLivrosSINOPSE: TStringField;
-    QryLivrosSINOPSE1: TStringField;
     SQLTransaction1: TSQLTransaction;
   private
 

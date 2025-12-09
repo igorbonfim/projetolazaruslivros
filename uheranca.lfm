@@ -396,6 +396,7 @@ object FrmHeranca: TFrmHeranca
       Align = alClient
       Color = clWindow
       Columns = <>
+      Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgCancelOnExit]
       TabOrder = 0
     end
   end

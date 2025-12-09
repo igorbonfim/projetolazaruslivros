@@ -18,7 +18,7 @@ type
     btnFechar: TBitBtn;
     btnAlterar: TBitBtn;
     dsLivros: TDataSource;
-    DBGrid1: TDBGrid;
+    grdLivros: TDBGrid;
     edtPesquisar: TLabeledEdit;
     pnlCenter: TPanel;
     pnlRodape: TPanel;
