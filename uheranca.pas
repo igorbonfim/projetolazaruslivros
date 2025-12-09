@@ -9,18 +9,10 @@ uses
 
 type
 
-  { TForm1 }
+  { TFrmHeranca }
 
-  TForm1 = class(TForm)
-    btnAlterar: TBitBtn;
-    btnExcluir: TBitBtn;
-    btnFechar: TBitBtn;
-    btnIncluir: TBitBtn;
-    edtPesquisar: TLabeledEdit;
-    grdLivros: TDBGrid;
-    pnlCenter: TPanel;
-    pnlRodape: TPanel;
-    pnlTopo: TPanel;
+  TFrmHeranca = class(TForm)
+
   private
 
   public
@@ -28,11 +20,14 @@ type
   end;
 
 var
-  Form1: TForm1;
+  FrmHeranca: TFrmHeranca;
 
 implementation
 
 {$R *.lfm}
+
+{ TFrmHeranca }
+
 
 end.
 

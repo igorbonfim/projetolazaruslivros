@@ -1,9 +1,9 @@
-object Form1: TForm1
+object FrmHeranca: TFrmHeranca
   Left = 350
   Height = 597
   Top = 250
   Width = 1112
-  Caption = 'Form1'
+  Caption = 'FrmHeranca'
   ClientHeight = 597
   ClientWidth = 1112
   object pnlTopo: TPanel
@@ -376,6 +376,27 @@ object Form1: TForm1
         0000000000000000000000000000000000000000000000000000
       }
       TabOrder = 3
+    end
+  end
+  object pnlCenter: TPanel
+    Left = 0
+    Height = 467
+    Top = 80
+    Width = 1112
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 467
+    ClientWidth = 1112
+    TabOrder = 2
+    object grdListagem: TDBGrid
+      Left = 0
+      Height = 467
+      Top = 0
+      Width = 1112
+      Align = alClient
+      Color = clWindow
+      Columns = <>
+      TabOrder = 0
     end
   end
 end

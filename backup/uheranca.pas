@@ -5,20 +5,14 @@ unit uHeranca;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls;
+  Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, ExtCtrls;
 
 type
 
-  { TForm1 }
+  { TFrmHeranca }
 
-  TForm1 = class(TForm)
-    btnAlterar: TBitBtn;
-    btnExcluir: TBitBtn;
-    btnFechar: TBitBtn;
-    btnIncluir: TBitBtn;
-    edtPesquisar: TLabeledEdit;
-    pnlRodape: TPanel;
-    pnlTopo: TPanel;
+  TFrmHeranca = class(TForm)
+
   private
 
   public
@@ -26,11 +20,14 @@ type
   end;
 
 var
-  Form1: TForm1;
+  FrmHeranca: TFrmHeranca;
 
 implementation
 
 {$R *.lfm}
+
+{ TFrmHeranca }
+
 
 end.
 

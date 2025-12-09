@@ -390,7 +390,7 @@ object FrmLivros: TFrmLivros
     ClientHeight = 492
     ClientWidth = 1125
     TabOrder = 2
-    object DBGrid1: TDBGrid
+    object grdLivros: TDBGrid
       Left = 0
       Height = 492
       Top = 0

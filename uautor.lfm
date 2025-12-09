@@ -1,0 +1,30 @@
+inherited FrmAutor: TFrmAutor
+  Caption = 'Autores'
+  inherited pnlRodape: TPanel
+    inherited btnFechar: TBitBtn
+      OnClick = btnFecharClick
+    end
+  end
+  inherited pnlCenter: TPanel
+    inherited grdListagem: TDBGrid
+      Columns = <      
+        item
+          PickList.Strings = (          )
+          Title.Caption = 'ID'
+          FieldName = 'ID'
+        end      
+        item
+          PickList.Strings = (          )
+          Title.Caption = 'Descrição'
+          Width = 250
+          FieldName = 'DESCRICAO'
+        end>
+      DataSource = dsAutor
+    end
+  end
+  object dsAutor: TDataSource[3]
+    DataSet = DataModule1.QryAutor
+    Left = 400
+    Top = 232
+  end
+end

@@ -5,7 +5,7 @@ object DataModule1: TDataModule1
   VerticalOffset = 250
   Width = 636
   object Connection: TIBConnection
-    Connected = False
+    Connected = True
     LoginPrompt = False
     DatabaseName = 'C:\Projetos\Cadastro de Livros - Lazarus\database\MYBOOKS.FDB'
     KeepConnection = False
@@ -209,9 +209,52 @@ object DataModule1: TDataModule1
     end
   end
   object SQLTransaction1: TSQLTransaction
-    Active = False
+    Active = True
     Database = Connection
     Left = 216
     Top = 24
+  end
+  object QryAutor: TSQLQuery
+    MaxIndexesCount = 4
+    FieldDefs = <    
+      item
+        Name = 'ID'
+        DataType = ftInteger
+        Precision = -1
+      end    
+      item
+        Name = 'DESCRICAO'
+        DataType = ftString
+        Precision = -1
+        Size = 50
+      end>
+    Database = Connection
+    Transaction = SQLTransaction1
+    SQL.Strings = (
+      'SELECT * FROM AUTOR'
+    )
+    Params = <>
+    Macros = <>
+    Left = 32
+    Top = 104
+    object QryAutorID: TLongintField
+      FieldKind = fkData
+      FieldName = 'ID'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+    end
+    object QryAutorDESCRICAO: TStringField
+      FieldKind = fkData
+      FieldName = 'DESCRICAO'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+      Size = 50
+    end
   end
 end

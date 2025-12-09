@@ -6,7 +6,8 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, EditBtn,
-  Buttons, Menus, ButtonPanel, ComCtrls, uLivros, Util, RTTICtrls, PrintersDlgs;
+  Buttons, Menus, ButtonPanel, ComCtrls, uLivros, Util, uAutor, RTTICtrls,
+  PrintersDlgs;
 
 type
 
@@ -33,6 +34,7 @@ type
     btnEditoras: TSpeedButton;
     btnLivros: TSpeedButton;
     btnSair: TSpeedButton;
+    procedure btnAutoresClick(Sender: TObject);
     procedure btnLivrosClick(Sender: TObject);
     procedure btnSairClick(Sender: TObject);
   private
@@ -53,6 +55,11 @@ implementation
 procedure TFrmPrincipal.btnLivrosClick(Sender: TObject);
 begin
   Util.CriarAba(TFrmLivros, pgcPrincipal)
+end;
+
+procedure TFrmPrincipal.btnAutoresClick(Sender: TObject);
+begin
+  Util.CriarAba(TFrmAutor, pgcPrincipal);
 end;
 
 procedure TFrmPrincipal.btnSairClick(Sender: TObject);

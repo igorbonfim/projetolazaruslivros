@@ -12,7 +12,6 @@ type
   { TUtil }
 
   TUtil = class
-
     function AbaExiste(sNomeAba: string; aPageControl: TPageControl): Boolean;
     procedure AbrirForm(aForm: TFormClass);
     procedure CriarAba(aForm: TFormClass; aPageControl: TPageControl);
@@ -29,10 +28,11 @@ var
 begin
   Form := aForm.Create(nil);
 
-  if AbaExiste(Form.Caption, aPageControl) then
+  if Util.AbaExiste(Form.Caption, aPageControl) then
   begin
     if Assigned(Form) then
       FreeAndNil(Form);
+    exit;
   end;
 
   TabSheet := TTabSheet.Create(nil);

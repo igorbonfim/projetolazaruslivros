@@ -118,6 +118,7 @@ object FrmPrincipal: TFrmPrincipal
           0000000000000000000000000000000000000000000000000000
         }
         Layout = blGlyphTop
+        OnClick = btnAutoresClick
       end
     end
     object pnlCategorias: TPanel

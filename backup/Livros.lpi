@@ -78,9 +78,18 @@
       <Unit>
         <Filename Value="uheranca.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form1"/>
+        <ComponentName Value="FrmHeranca"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uHeranca"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uautor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmAutor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uAutor"/>
       </Unit>
     </Units>
   </ProjectOptions>
