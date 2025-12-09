@@ -14,15 +14,6 @@ type
 
   TFrmAutor = class(TFrmHeranca)
     dsAutor: TDataSource;
-    btnExcluir: TBitBtn;
-    btnIncluir: TBitBtn;
-    btnFechar: TBitBtn;
-    btnAlterar: TBitBtn;
-    edtPesquisar: TLabeledEdit;
-    pnlCenter: TPanel;
-    pnlRodape: TPanel;
-    pnlTopo: TPanel;
-    grdListagem: TDBGrid;
     procedure btnFecharClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private

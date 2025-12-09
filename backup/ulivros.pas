@@ -14,6 +14,7 @@ type
 
   TFrmLivros = class(TForm)
     btnExcluir: TBitBtn;
+    btnFecharTopo: TBitBtn;
     btnIncluir: TBitBtn;
     btnFechar: TBitBtn;
     btnAlterar: TBitBtn;
@@ -21,9 +22,11 @@ type
     grdLivros: TDBGrid;
     edtPesquisar: TLabeledEdit;
     pnlCenter: TPanel;
+    pnlFechar: TPanel;
     pnlRodape: TPanel;
     pnlTopo: TPanel;
     procedure btnFecharClick(Sender: TObject);
+    procedure btnFecharTopoClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
 
@@ -51,6 +54,11 @@ end;
 procedure TFrmLivros.btnFecharClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
+end;
+
+procedure TFrmLivros.btnFecharTopoClick(Sender: TObject);
+begin
+  btnFecharClick(Sender);
 end;
 
 end.

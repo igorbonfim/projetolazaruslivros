@@ -21,7 +21,6 @@ inherited FrmAutor: TFrmAutor
           FieldName = 'DESCRICAO'
         end>
       DataSource = dsAutor
-      Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
     end
   end
   object dsAutor: TDataSource[3]

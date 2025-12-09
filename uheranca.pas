@@ -5,18 +5,30 @@ unit uHeranca;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, Buttons, DBGrids, Util;
 
 type
 
   { TFrmHeranca }
 
   TFrmHeranca = class(TForm)
+    btnFecharTopo: TBitBtn;
+    btnAlterar: TBitBtn;
+    btnExcluir: TBitBtn;
+    btnFechar: TBitBtn;
+    btnIncluir: TBitBtn;
+    edtPesquisar: TLabeledEdit;
+    grdListagem: TDBGrid;
+    pnlFechar: TPanel;
+    pnlCenter: TPanel;
+    pnlRodape: TPanel;
+    pnlTopo: TPanel;
+    procedure btnFecharTopoClick(Sender: TObject);
 
   private
 
   public
-
+    Util: TUtil;
   end;
 
 var
@@ -26,8 +38,15 @@ implementation
 
 {$R *.lfm}
 
+uses uPrincipal;
+
 { TFrmHeranca }
 
+
+procedure TFrmHeranca.btnFecharTopoClick(Sender: TObject);
+begin
+  Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
+end;
 
 end.
 

@@ -1,6 +1,13 @@
 inherited FrmEditora: TFrmEditora
   Caption = 'Editoras'
   OnCreate = FormCreate
+  inherited pnlTopo: TPanel
+    inherited pnlFechar: TPanel
+      inherited btnFecharTopo: TBitBtn
+        OnClick = btnFecharTopoClick
+      end
+    end
+  end
   inherited pnlRodape: TPanel
     inherited btnFechar: TBitBtn
       OnClick = btnFecharClick

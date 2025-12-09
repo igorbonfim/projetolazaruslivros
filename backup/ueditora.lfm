@@ -1,6 +1,14 @@
 inherited FrmEditora: TFrmEditora
   Caption = 'Editoras'
   OnCreate = FormCreate
+  inherited pnlTopo: TPanel
+    inherited pnlFechar: TPanel
+      inherited btnFecharTopo: TBitBtn
+        Cursor = crDefault
+        OnClick = btnFecharTopoClick
+      end
+    end
+  end
   inherited pnlRodape: TPanel
     inherited btnFechar: TBitBtn
       OnClick = btnFecharClick
@@ -21,7 +29,6 @@ inherited FrmEditora: TFrmEditora
           FieldName = 'DESCRICAO'
         end>
       DataSource = dsEditora
-      Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
     end
   end
   object dsEditora: TDataSource[3]

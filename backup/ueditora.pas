@@ -13,22 +13,13 @@ type
   { TFrmEditora }
 
   TFrmEditora = class(TFrmHeranca)
-    btnExcluir: TBitBtn;
-    btnIncluir: TBitBtn;
-    btnFechar: TBitBtn;
-    btnAlterar: TBitBtn;
-    grdLivros: TDBGrid;
-    edtPesquisar: TLabeledEdit;
-    pnlCenter: TPanel;
-    pnlRodape: TPanel;
-    pnlTopo: TPanel;
     dsEditora: TDataSource;
     procedure btnFecharClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
 
   public
-    Util: TUtil;
+
   end;
 
 var

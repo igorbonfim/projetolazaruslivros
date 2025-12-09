@@ -21,6 +21,7 @@ type
     pnlRodape: TPanel;
     pnlTopo: TPanel;
     dsCategoria: TDataSource;
+    grdListagem: TDBGrid;
     procedure btnFecharClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private

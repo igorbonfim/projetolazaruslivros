@@ -12,22 +12,13 @@ type
   { TFrmCategoria }
 
   TFrmCategoria = class(TFrmHeranca)
-    btnExcluir: TBitBtn;
-    btnIncluir: TBitBtn;
-    btnFechar: TBitBtn;
-    btnAlterar: TBitBtn;
-    edtPesquisar: TLabeledEdit;
-    pnlCenter: TPanel;
-    pnlRodape: TPanel;
-    pnlTopo: TPanel;
     dsCategoria: TDataSource;
-    grdListagem: TDBGrid;
     procedure btnFecharClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
 
   public
-   Util: TUtil;
+
   end;
 
 var
