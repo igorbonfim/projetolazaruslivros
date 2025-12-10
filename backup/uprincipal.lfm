@@ -1,11 +1,11 @@
 object FrmPrincipal: TFrmPrincipal
   Left = -8
-  Height = 773
+  Height = 812
   Top = -8
-  Width = 1092
+  Width = 1108
   Caption = 'FrmPrincipal'
-  ClientHeight = 770
-  ClientWidth = 1092
+  ClientHeight = 809
+  ClientWidth = 1108
   Menu = MainMenu1
   Position = poScreenCenter
   WindowState = wsMaximized
@@ -13,11 +13,14 @@ object FrmPrincipal: TFrmPrincipal
     Left = 0
     Height = 80
     Top = 0
-    Width = 1092
+    Width = 1108
     Align = alTop
     BevelOuter = bvNone
     ClientHeight = 80
-    ClientWidth = 1092
+    ClientWidth = 1108
+    Color = 16373175
+    ParentBackground = False
+    ParentColor = False
     TabOrder = 0
     object pnlAutores: TPanel
       Left = 0
@@ -425,7 +428,7 @@ object FrmPrincipal: TFrmPrincipal
       end
     end
     object pnlSair: TPanel
-      Left = 996
+      Left = 1012
       Height = 80
       Top = 0
       Width = 96
@@ -529,28 +532,29 @@ object FrmPrincipal: TFrmPrincipal
   object pnlRodape: TPanel
     Left = 0
     Height = 21
-    Top = 749
-    Width = 1092
+    Top = 788
+    Width = 1108
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 1
   end
   object pnlConteudo: TPanel
     Left = 0
-    Height = 669
+    Height = 708
     Top = 80
-    Width = 1092
+    Width = 1108
     Align = alClient
     BevelOuter = bvNone
-    ClientHeight = 669
-    ClientWidth = 1092
+    ClientHeight = 708
+    ClientWidth = 1108
     TabOrder = 2
     object pgcPrincipal: TPageControl
       Left = 0
-      Height = 669
+      Height = 708
       Top = 0
-      Width = 1092
+      Width = 1108
       Align = alClient
+      Style = tsFlatButtons
       TabOrder = 0
     end
   end

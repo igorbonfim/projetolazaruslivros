@@ -20,6 +20,7 @@ type
     lblID: TLabel;
     Label2: TLabel;
     lblCadastro: TLabel;
+    pnlLine: TPanel;
     pnlRodape: TPanel;
     pnlTopoCadastro: TPanel;
     btnSalvar: TSpeedButton;

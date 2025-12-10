@@ -56,7 +56,7 @@ implementation
 
 procedure TFrmPrincipal.btnLivrosClick(Sender: TObject);
 begin
-  Util.CriarAba(TFrmLivros, pgcPrincipal)
+  Util.CriarAba(TFrmLivros, pgcPrincipal);
 end;
 
 procedure TFrmPrincipal.btnAutoresClick(Sender: TObject);

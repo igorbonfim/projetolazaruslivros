@@ -15,7 +15,7 @@ object FrmHerancaCadastro: TFrmHerancaCadastro
     BevelOuter = bvNone
     ClientHeight = 40
     ClientWidth = 499
-    Color = 15581894
+    Color = 9955490
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -19
@@ -287,5 +287,18 @@ object FrmHerancaCadastro: TFrmHerancaCadastro
     Top = 129
     Width = 51
     Caption = 'Descrição'
+  end
+  object pnlLineBottom: TPanel
+    Left = 0
+    Height = 1
+    Top = 279
+    Width = 499
+    Align = alBottom
+    BevelOuter = bvNone
+    Caption = 'pnlLineBottom'
+    Color = clBlack
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 4
   end
 end

@@ -76,14 +76,6 @@
         <UnitName Value="Util"/>
       </Unit>
       <Unit>
-        <Filename Value="uheranca.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmHeranca"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uHeranca"/>
-      </Unit>
-      <Unit>
         <Filename Value="uautor.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmAutor"/>
@@ -114,6 +106,22 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uHerancaCadastro"/>
       </Unit>
+      <Unit>
+        <Filename Value="heranca\uheranca.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmHeranca"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uHeranca"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cadastros\ucadautor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmCadastroAutor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uCadAutor"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -124,7 +132,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="heranca"/>
+      <OtherUnitFiles Value="heranca;cadastros"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>

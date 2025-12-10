@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, uHeranca, ExtCtrls, DBGrids,
-  StdCtrls, Buttons, DataModule, Util;
+  StdCtrls, Buttons, DataModule, Util, uCadAutor;
 
 type
 
@@ -15,11 +15,12 @@ type
   TFrmAutor = class(TFrmHeranca)
     dsAutor: TDataSource;
     procedure btnFecharClick(Sender: TObject);
+    procedure btnIncluirClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
 
   public
-    Util: TUtil;
+
   end;
 
 var
@@ -36,6 +37,11 @@ uses uPrincipal;
 procedure TFrmAutor.btnFecharClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
+end;
+
+procedure TFrmAutor.btnIncluirClick(Sender: TObject);
+begin
+  Util.CriarAba(TFrmCadastroAutor, pgcPrincipal);
 end;
 
 procedure TFrmAutor.FormCreate(Sender: TObject);

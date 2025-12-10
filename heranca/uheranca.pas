@@ -5,7 +5,8 @@ unit uHeranca;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, Buttons, DBGrids, Util;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, Buttons,
+  DBGrids, StdCtrls, Util, RTTICtrls;
 
 type
 
@@ -17,12 +18,13 @@ type
     btnExcluir: TBitBtn;
     btnFechar: TBitBtn;
     btnIncluir: TBitBtn;
-    edtPesquisar: TLabeledEdit;
+    edtPesquisar: TEdit;
     grdListagem: TDBGrid;
     pnlFechar: TPanel;
     pnlCenter: TPanel;
     pnlRodape: TPanel;
     pnlTopo: TPanel;
+    btnPesquisar: TSpeedButton;
     procedure btnFecharTopoClick(Sender: TObject);
 
   private
