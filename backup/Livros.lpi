@@ -107,6 +107,13 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCategoria"/>
       </Unit>
+      <Unit>
+        <Filename Value="heranca\uherancacadastro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmHerancaCadastro"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uHerancaCadastro"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -117,6 +124,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="heranca"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>

@@ -21,7 +21,6 @@
         <UnitName Value="uPrincipal"/>
         <TopLine Value="46"/>
         <CursorPos X="18" Y="55"/>
-        <ComponentState Value="2"/>
         <UsageCount Value="32"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -33,7 +32,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uLivros"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="6"/>
         <TopLine Value="27"/>
         <CursorPos X="3" Y="61"/>
         <UsageCount Value="31"/>
@@ -47,7 +46,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="DataModule"/>
-        <EditorIndex Value="7"/>
+        <EditorIndex Value="8"/>
         <CursorPos X="45" Y="8"/>
         <UsageCount Value="31"/>
         <Loaded Value="True"/>
@@ -57,7 +56,7 @@
         <Filename Value="util.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Util"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="7"/>
         <CursorPos X="15" Y="18"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
@@ -97,9 +96,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uEditora"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
-        <TopLine Value="9"/>
+        <TopLine Value="7"/>
         <CursorPos Y="18"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
@@ -118,12 +116,20 @@
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="heranca\uherancacadastro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmHerancaCadastro"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uHerancaCadastro"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="ueditora.pas"/>
-        <Caret Line="27" Column="43" TopLine="6"/>
-      </Position>
+    <JumpHistory HistoryIndex="28">
       <Position>
         <Filename Value="ueditora.pas"/>
         <Caret Line="16" Column="17"/>

@@ -11,7 +11,7 @@ uses
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
   Forms, uPrincipal, runtimetypeinfocontrols, printer4lazarus, uLivros,
-  DataModule, Util, uHeranca, uAutor, uEditora, uCategoria
+  DataModule, Util, uHeranca, uAutor, uEditora, uCategoria, uHerancaCadastro
   { you can add units after this };
 
 {$R *.res}
@@ -22,6 +22,7 @@ begin
   Application.Initialize;
   Application.CreateForm(TFrmPrincipal, FrmPrincipal);
   Application.CreateForm(TDataModule1, DataModule1);
+  Application.CreateForm(TFrmHerancaCadastro, FrmHerancaCadastro);
   Application.Run;
 end.
 
