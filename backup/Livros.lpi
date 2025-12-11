@@ -126,7 +126,7 @@
       <Unit>
         <Filename Value="cadastros\ucadcategoria.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmHerancaCadastro1"/>
+        <ComponentName Value="FrmCadCategoria"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCadCategoria"/>

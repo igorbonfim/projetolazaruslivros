@@ -1,0 +1,14 @@
+inherited FrmCadEditora: TFrmCadEditora
+  Caption = 'Cadastro de Editora'
+  inherited pnlTopoCadastro: TPanel
+    inherited lblCadastro: TLabel
+      Width = 126
+      Caption = 'Nova Editora'
+    end
+  end
+  inherited pnlRodape: TPanel
+    inherited btnCancelar: TSpeedButton
+      OnClick = btnCancelarClick
+    end
+  end
+end

@@ -131,6 +131,14 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCadCategoria"/>
       </Unit>
+      <Unit>
+        <Filename Value="cadastros\ucadeditora.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmCadEditora"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uCadEditora"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

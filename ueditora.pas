@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, uHeranca, ExtCtrls, DBGrids,
-  StdCtrls, Buttons, DataModule, Util;
+  StdCtrls, Buttons, DataModule, Util, uCadEditora;
 
 type
 
@@ -15,6 +15,7 @@ type
   TFrmEditora = class(TFrmHeranca)
     dsEditora: TDataSource;
     procedure btnFecharClick(Sender: TObject);
+    procedure btnIncluirClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
 
@@ -41,6 +42,11 @@ end;
 procedure TFrmEditora.btnFecharClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
+end;
+
+procedure TFrmEditora.btnIncluirClick(Sender: TObject);
+begin
+  Util.CriarAba(TFrmCadEditora, FrmPrincipal.pgcPrincipal);
 end;
 
 end.

@@ -4,7 +4,6 @@ inherited FrmEditora: TFrmEditora
   inherited pnlTopo: TPanel
     inherited pnlFechar: TPanel
       inherited btnFecharTopo: TBitBtn
-        Cursor = crDefault
         OnClick = btnFecharTopoClick
       end
     end
@@ -12,6 +11,9 @@ inherited FrmEditora: TFrmEditora
   inherited pnlRodape: TPanel
     inherited btnFechar: TBitBtn
       OnClick = btnFecharClick
+    end
+    inherited btnIncluir: TBitBtn
+      OnClick = btnIncluirClick
     end
   end
   inherited pnlCenter: TPanel

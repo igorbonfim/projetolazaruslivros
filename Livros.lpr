@@ -12,7 +12,7 @@ uses
   Interfaces, // this includes the LCL widgetset
   Forms, uPrincipal, runtimetypeinfocontrols, printer4lazarus, uLivros,
   DataModule, Util, uHeranca, uAutor, uEditora, uCategoria, uHerancaCadastro,
-  uCadAutor, uCadCategoria
+  uCadAutor, uCadCategoria, uCadEditora
   { you can add units after this };
 
 {$R *.res}
@@ -26,6 +26,7 @@ begin
   Application.CreateForm(TFrmHerancaCadastro, FrmHerancaCadastro);
   Application.CreateForm(TFrmCadastroAutor, FrmCadastroAutor);
   Application.CreateForm(TFrmCadCategoria, FrmCadCategoria);
+  Application.CreateForm(TFrmCadEditora, FrmCadEditora);
   Application.Run;
 end.
 
