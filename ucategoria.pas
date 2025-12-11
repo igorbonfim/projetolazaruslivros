@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, uHeranca, ExtCtrls, DBGrids,
-  StdCtrls, Buttons, DataModule, Util;
+  StdCtrls, Buttons, DataModule, Util, uCadCategoria;
 type
 
   { TFrmCategoria }
@@ -14,6 +14,7 @@ type
   TFrmCategoria = class(TFrmHeranca)
     dsCategoria: TDataSource;
     procedure btnFecharClick(Sender: TObject);
+    procedure btnIncluirClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
 
@@ -40,6 +41,11 @@ end;
 procedure TFrmCategoria.btnFecharClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
+end;
+
+procedure TFrmCategoria.btnIncluirClick(Sender: TObject);
+begin
+  Util.CriarAba(TFrmCadCategoria, FrmPrincipal.pgcPrincipal);
 end;
 
 end.

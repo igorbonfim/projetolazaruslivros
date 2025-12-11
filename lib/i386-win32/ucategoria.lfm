@@ -5,6 +5,9 @@ inherited FrmCategoria: TFrmCategoria
     inherited btnFechar: TBitBtn
       OnClick = btnFecharClick
     end
+    inherited btnIncluir: TBitBtn
+      OnClick = btnIncluirClick
+    end
   end
   inherited pnlCenter: TPanel
     inherited grdListagem: TDBGrid

@@ -288,14 +288,14 @@ object FrmHerancaCadastro: TFrmHerancaCadastro
     Width = 51
     Caption = 'Descrição'
   end
-  object Panel1: TPanel
+  object pnlLineBottom: TPanel
     Left = 0
-    Height = 2
-    Top = 278
+    Height = 1
+    Top = 279
     Width = 499
     Align = alBottom
     BevelOuter = bvNone
-    Caption = 'Panel1'
+    Caption = 'pnlLineBottom'
     Color = clBlack
     ParentBackground = False
     ParentColor = False

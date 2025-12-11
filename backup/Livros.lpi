@@ -103,6 +103,7 @@
         <Filename Value="heranca\uherancacadastro.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmHerancaCadastro"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uHerancaCadastro"/>
       </Unit>
@@ -121,6 +122,14 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCadAutor"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cadastros\ucadcategoria.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmHerancaCadastro1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uCadCategoria"/>
       </Unit>
     </Units>
   </ProjectOptions>

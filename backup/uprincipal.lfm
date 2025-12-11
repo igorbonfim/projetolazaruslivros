@@ -44,6 +44,11 @@ object FrmPrincipal: TFrmPrincipal
         Caption = 'Autores'
         Color = 13534067
         Flat = True
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Name = 'Segoe UI Semilight'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
         Glyph.Data = {
           36090000424D3609000000000000360000002800000018000000180000000100
           2000000000000009000064000000640000000000000000000000000000000000
@@ -122,6 +127,7 @@ object FrmPrincipal: TFrmPrincipal
         }
         Layout = blGlyphTop
         OnClick = btnAutoresClick
+        ParentFont = False
       end
     end
     object pnlCategorias: TPanel
@@ -145,6 +151,11 @@ object FrmPrincipal: TFrmPrincipal
         Align = alClient
         Caption = 'Categorias'
         Flat = True
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Name = 'Segoe UI Semilight'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
         Glyph.Data = {
           36090000424D3609000000000000360000002800000018000000180000000100
           2000000000000009000064000000640000000000000000000000000000000000
@@ -223,6 +234,7 @@ object FrmPrincipal: TFrmPrincipal
         }
         Layout = blGlyphTop
         OnClick = btnCategoriasClick
+        ParentFont = False
       end
     end
     object pnlEditoras: TPanel
@@ -246,6 +258,11 @@ object FrmPrincipal: TFrmPrincipal
         Align = alClient
         Caption = 'Editoras'
         Flat = True
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Name = 'Segoe UI Semilight'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
         Glyph.Data = {
           36090000424D3609000000000000360000002800000018000000180000000100
           2000000000000009000064000000640000000000000000000000000000000000
@@ -324,6 +341,7 @@ object FrmPrincipal: TFrmPrincipal
         }
         Layout = blGlyphTop
         OnClick = btnEditorasClick
+        ParentFont = False
       end
     end
     object pnlLivros: TPanel
@@ -347,6 +365,11 @@ object FrmPrincipal: TFrmPrincipal
         Align = alLeft
         Caption = 'Livros'
         Flat = True
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Name = 'Segoe UI Semilight'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
         Glyph.Data = {
           36090000424D3609000000000000360000002800000018000000180000000100
           2000000000000009000064000000640000000000000000000000000000000000
@@ -425,6 +448,7 @@ object FrmPrincipal: TFrmPrincipal
         }
         Layout = blGlyphTop
         OnClick = btnLivrosClick
+        ParentFont = False
       end
     end
     object pnlSair: TPanel
@@ -448,6 +472,11 @@ object FrmPrincipal: TFrmPrincipal
         Align = alClient
         Caption = 'Sair'
         Flat = True
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Name = 'Segoe UI Semilight'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
         Glyph.Data = {
           36090000424D3609000000000000360000002800000018000000180000000100
           2000000000000009000064000000640000000000000000000000000000000000
@@ -526,6 +555,7 @@ object FrmPrincipal: TFrmPrincipal
         }
         Layout = blGlyphTop
         OnClick = btnSairClick
+        ParentFont = False
       end
     end
   end
@@ -554,7 +584,12 @@ object FrmPrincipal: TFrmPrincipal
       Top = 0
       Width = 1108
       Align = alClient
-      Style = tsFlatButtons
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -19
+      Font.Name = 'Segoe UI Semilight'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
       TabOrder = 0
     end
   end

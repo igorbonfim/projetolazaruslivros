@@ -21,6 +21,7 @@ inherited FrmCategoria: TFrmCategoria
           FieldName = 'DESCRICAO'
         end>
       DataSource = dsCategoria
+      Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
     end
   end
   object dsCategoria: TDataSource[3]

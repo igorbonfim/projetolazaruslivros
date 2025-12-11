@@ -1,0 +1,9 @@
+inherited FrmCadCategoria: TFrmCadCategoria
+  Caption = 'Cadastro de Categoria'
+  inherited pnlTopoCadastro: TPanel
+    inherited lblCadastro: TLabel
+      Width = 215
+      Caption = 'Cadastro de Categoria'
+    end
+  end
+end
