@@ -5,8 +5,7 @@ unit uCadAutor;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, uHerancaCadastro, Util,
-  uPrincipal;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, uHerancaCadastro, Util;
 
 type
 
@@ -26,6 +25,8 @@ var
 implementation
 
 {$R *.lfm}
+
+uses uPrincipal;
 
 { TFrmCadastroAutor }
 

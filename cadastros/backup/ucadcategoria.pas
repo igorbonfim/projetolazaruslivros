@@ -5,14 +5,18 @@ unit uCadCategoria;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, uHerancaCadastro;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, uHerancaCadastro, Util;
 
 type
+
+  { TFrmCadCategoria }
+
   TFrmCadCategoria = class(TFrmHerancaCadastro)
+    procedure btnCancelarClick(Sender: TObject);
   private
 
   public
-
+    Util: TUtil;
   end;
 
 var
@@ -21,6 +25,15 @@ var
 implementation
 
 {$R *.lfm}
+
+uses uPrincipal;
+
+{ TFrmCadCategoria }
+
+procedure TFrmCadCategoria.btnCancelarClick(Sender: TObject);
+begin
+  Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
+end;
 
 end.
 

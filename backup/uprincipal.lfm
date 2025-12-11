@@ -1,11 +1,11 @@
 object FrmPrincipal: TFrmPrincipal
   Left = -8
-  Height = 812
+  Height = 851
   Top = -8
-  Width = 1108
+  Width = 1124
   Caption = 'FrmPrincipal'
-  ClientHeight = 809
-  ClientWidth = 1108
+  ClientHeight = 848
+  ClientWidth = 1124
   Menu = MainMenu1
   Position = poScreenCenter
   WindowState = wsMaximized
@@ -13,11 +13,11 @@ object FrmPrincipal: TFrmPrincipal
     Left = 0
     Height = 80
     Top = 0
-    Width = 1108
+    Width = 1124
     Align = alTop
     BevelOuter = bvNone
     ClientHeight = 80
-    ClientWidth = 1108
+    ClientWidth = 1124
     Color = 16373175
     ParentBackground = False
     ParentColor = False
@@ -452,7 +452,7 @@ object FrmPrincipal: TFrmPrincipal
       end
     end
     object pnlSair: TPanel
-      Left = 1012
+      Left = 1028
       Height = 80
       Top = 0
       Width = 96
@@ -562,27 +562,27 @@ object FrmPrincipal: TFrmPrincipal
   object pnlRodape: TPanel
     Left = 0
     Height = 21
-    Top = 788
-    Width = 1108
+    Top = 827
+    Width = 1124
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 1
   end
   object pnlConteudo: TPanel
     Left = 0
-    Height = 708
+    Height = 747
     Top = 80
-    Width = 1108
+    Width = 1124
     Align = alClient
     BevelOuter = bvNone
-    ClientHeight = 708
-    ClientWidth = 1108
+    ClientHeight = 747
+    ClientWidth = 1124
     TabOrder = 2
     object pgcPrincipal: TPageControl
       Left = 0
-      Height = 708
+      Height = 747
       Top = 0
-      Width = 1108
+      Width = 1124
       Align = alClient
       Font.CharSet = ANSI_CHARSET
       Font.Height = -19

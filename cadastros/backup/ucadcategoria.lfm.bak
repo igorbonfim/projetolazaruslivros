@@ -1,9 +1,14 @@
 inherited FrmCadCategoria: TFrmCadCategoria
-  Caption = 'Cadastro de Categoria'
+  Caption = 'Nova Categoria'
   inherited pnlTopoCadastro: TPanel
     inherited lblCadastro: TLabel
       Width = 215
       Caption = 'Cadastro de Categoria'
+    end
+  end
+  inherited pnlRodape: TPanel
+    inherited btnCancelar: TSpeedButton
+      OnClick = btnCancelarClick
     end
   end
 end

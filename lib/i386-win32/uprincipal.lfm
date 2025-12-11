@@ -3,7 +3,7 @@ object FrmPrincipal: TFrmPrincipal
   Height = 851
   Top = -8
   Width = 1124
-  Caption = 'FrmPrincipal'
+  Caption = 'Livros'
   ClientHeight = 848
   ClientWidth = 1124
   Menu = MainMenu1

@@ -2,8 +2,8 @@ inherited FrmCadCategoria: TFrmCadCategoria
   Caption = 'Cadastro de Categoria'
   inherited pnlTopoCadastro: TPanel
     inherited lblCadastro: TLabel
-      Width = 215
-      Caption = 'Cadastro de Categoria'
+      Width = 150
+      Caption = 'Nova Categoria'
     end
   end
   inherited pnlRodape: TPanel
