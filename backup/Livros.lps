@@ -19,6 +19,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uPrincipal"/>
+        <IsVisibleTab Value="True"/>
         <TopLine Value="40"/>
         <CursorPos X="18" Y="55"/>
         <ComponentState Value="2"/>
@@ -159,7 +160,6 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCadCategoria"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="57" Y="35"/>
         <UsageCount Value="20"/>

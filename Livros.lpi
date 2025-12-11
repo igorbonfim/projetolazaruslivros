@@ -139,6 +139,11 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCadEditora"/>
       </Unit>
+      <Unit>
+        <Filename Value="src\model\model.autor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Model.Autor"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -149,7 +154,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="heranca;cadastros"/>
+      <OtherUnitFiles Value="heranca;cadastros;src\model"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
