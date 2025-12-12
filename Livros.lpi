@@ -47,22 +47,6 @@
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="uprincipal.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmPrincipal"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uPrincipal"/>
-      </Unit>
-      <Unit>
-        <Filename Value="ulivros.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmLivros"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uLivros"/>
-      </Unit>
-      <Unit>
         <Filename Value="datamodule.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DataModule1"/>
@@ -71,78 +55,118 @@
         <UnitName Value="DataModule"/>
       </Unit>
       <Unit>
-        <Filename Value="util.pas"/>
+        <Filename Value="src\model\model.autor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Model.Autor"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\util.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Util"/>
       </Unit>
       <Unit>
-        <Filename Value="uautor.pas"/>
+        <Filename Value="src\uprincipal.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmAutor"/>
+        <ComponentName Value="FrmPrincipal"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uPrincipal"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\view\uautor.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\view\uautor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmAutor"/>
         <UnitName Value="uAutor"/>
       </Unit>
       <Unit>
-        <Filename Value="ueditora.pas"/>
+        <Filename Value="src\view\ucategoria.lfm"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmEditora"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uEditora"/>
       </Unit>
       <Unit>
-        <Filename Value="ucategoria.pas"/>
+        <Filename Value="src\view\ucategoria.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmCategoria"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCategoria"/>
       </Unit>
       <Unit>
-        <Filename Value="heranca\uherancacadastro.pas"/>
+        <Filename Value="src\view\ueditora.lfm"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmHerancaCadastro"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uHerancaCadastro"/>
       </Unit>
       <Unit>
-        <Filename Value="heranca\uheranca.pas"/>
+        <Filename Value="src\view\ueditora.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmEditora"/>
+        <UnitName Value="uEditora"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\view\ulivros.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\view\ulivros.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmLivros"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uLivros"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\heranca\uheranca.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\heranca\uheranca.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmHeranca"/>
-        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uHeranca"/>
       </Unit>
       <Unit>
-        <Filename Value="cadastros\ucadautor.pas"/>
+        <Filename Value="src\heranca\uherancacadastro.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\heranca\uherancacadastro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmHerancaCadastro"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uHerancaCadastro"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\cadastros\ucadautor.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\cadastros\ucadautor.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmCadastroAutor"/>
-        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCadAutor"/>
       </Unit>
       <Unit>
-        <Filename Value="cadastros\ucadcategoria.pas"/>
+        <Filename Value="src\cadastros\ucadcategoria.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\cadastros\ucadcategoria.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmCadCategoria"/>
-        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCadCategoria"/>
       </Unit>
       <Unit>
-        <Filename Value="cadastros\ucadeditora.pas"/>
+        <Filename Value="src\cadastros\ucadeditora.lfm"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmCadEditora"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uCadEditora"/>
       </Unit>
       <Unit>
-        <Filename Value="src\model\model.autor.pas"/>
+        <Filename Value="src\cadastros\ucadeditora.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="Model.Autor"/>
+        <ComponentName Value="FrmCadEditora"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uCadEditora"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -154,7 +178,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="heranca;cadastros;src\model"/>
+      <OtherUnitFiles Value="src\model;src;src\view;src\heranca;src\cadastros"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>

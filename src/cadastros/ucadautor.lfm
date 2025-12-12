@@ -1,0 +1,14 @@
+inherited FrmCadastroAutor: TFrmCadastroAutor
+  Caption = 'Cadastro de Autor'
+  inherited pnlTopoCadastro: TPanel
+    inherited lblCadastro: TLabel
+      Width = 114
+      Caption = 'Novo Autor'
+    end
+  end
+  inherited pnlRodape: TPanel
+    inherited btnCancelar: TSpeedButton
+      OnClick = btnCancelarClick
+    end
+  end
+end

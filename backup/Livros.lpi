@@ -47,22 +47,6 @@
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="uprincipal.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmPrincipal"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uPrincipal"/>
-      </Unit>
-      <Unit>
-        <Filename Value="ulivros.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmLivros"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uLivros"/>
-      </Unit>
-      <Unit>
         <Filename Value="datamodule.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DataModule1"/>
@@ -71,73 +55,14 @@
         <UnitName Value="DataModule"/>
       </Unit>
       <Unit>
-        <Filename Value="util.pas"/>
+        <Filename Value="src\model\model.autor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Model.Autor"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\util.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Util"/>
-      </Unit>
-      <Unit>
-        <Filename Value="uautor.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmAutor"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uAutor"/>
-      </Unit>
-      <Unit>
-        <Filename Value="ueditora.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmEditora"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uEditora"/>
-      </Unit>
-      <Unit>
-        <Filename Value="ucategoria.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmCategoria"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uCategoria"/>
-      </Unit>
-      <Unit>
-        <Filename Value="heranca\uherancacadastro.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmHerancaCadastro"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uHerancaCadastro"/>
-      </Unit>
-      <Unit>
-        <Filename Value="heranca\uheranca.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmHeranca"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uHeranca"/>
-      </Unit>
-      <Unit>
-        <Filename Value="cadastros\ucadautor.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmCadastroAutor"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uCadAutor"/>
-      </Unit>
-      <Unit>
-        <Filename Value="cadastros\ucadcategoria.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmCadCategoria"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uCadCategoria"/>
-      </Unit>
-      <Unit>
-        <Filename Value="cadastros\ucadeditora.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FrmCadEditora"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uCadEditora"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -149,7 +74,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="heranca;cadastros"/>
+      <OtherUnitFiles Value="src\model;src"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>

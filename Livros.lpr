@@ -10,9 +10,9 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, uPrincipal, runtimetypeinfocontrols, printer4lazarus, uLivros,
-  DataModule, Util, uHeranca, uAutor, uEditora, uCategoria, uHerancaCadastro,
-  uCadAutor, uCadCategoria, uCadEditora, Model.Autor
+  Forms, runtimetypeinfocontrols, printer4lazarus, DataModule, Model.Autor,
+  uPrincipal, uCadAutor, uCadCategoria, uCadEditora, uHeranca, uHerancaCadastro,
+  uAutor, uCategoria, uEditora, uLivros
   { you can add units after this };
 
 {$R *.res}
@@ -21,12 +21,8 @@ begin
   RequireDerivedFormResource:=True;
   Application.Scaled:=True;
   Application.Initialize;
-  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
   Application.CreateForm(TDataModule1, DataModule1);
-  Application.CreateForm(TFrmHerancaCadastro, FrmHerancaCadastro);
-  Application.CreateForm(TFrmCadastroAutor, FrmCadastroAutor);
-  Application.CreateForm(TFrmCadCategoria, FrmCadCategoria);
-  Application.CreateForm(TFrmCadEditora, FrmCadEditora);
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
   Application.Run;
 end.
 
