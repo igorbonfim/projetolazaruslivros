@@ -80,6 +80,8 @@
         <Filename Value="src\view\uautor.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmAutor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
         <UnitName Value="uAutor"/>
       </Unit>
       <Unit>
@@ -90,6 +92,8 @@
         <Filename Value="src\view\ucategoria.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmCategoria"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCategoria"/>
       </Unit>
       <Unit>
@@ -121,6 +125,7 @@
         <Filename Value="src\heranca\uheranca.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmHeranca"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uHeranca"/>
       </Unit>
@@ -132,6 +137,7 @@
         <Filename Value="src\heranca\uherancacadastro.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmHerancaCadastro"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uHerancaCadastro"/>
       </Unit>
@@ -143,6 +149,7 @@
         <Filename Value="src\cadastros\ucadautor.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmCadastroAutor"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCadAutor"/>
       </Unit>
@@ -168,6 +175,16 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCadEditora"/>
       </Unit>
+      <Unit>
+        <Filename Value="src\dao\dao.conexao.firedac.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DAO.Conexao.Firedac"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\dao\dao.conexao.interfaces.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DAO.Conexao.Interfaces"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -178,7 +195,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="src\model;src;src\view;src\heranca;src\cadastros"/>
+      <OtherUnitFiles Value="src\model;src;src\view;src\heranca;src\cadastros;src\dao"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>

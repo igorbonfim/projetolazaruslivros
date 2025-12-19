@@ -28,7 +28,7 @@ var
 begin
   Form := aForm.Create(nil);
 
-  if Util.AbaExiste(Form.Caption, aPageControl) then
+  if AbaExiste(Form.Caption, aPageControl) then
   begin
     if Assigned(Form) then
       FreeAndNil(Form);

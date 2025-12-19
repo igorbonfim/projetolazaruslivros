@@ -8,35 +8,10 @@
       <Unit>
         <Filename Value="Livros.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <CursorPos X="40" Y="15"/>
-        <UsageCount Value="36"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="39" Y="14"/>
+        <UsageCount Value="51"/>
         <Loaded Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="uprincipal.pas"/>
-        <ComponentName Value="FrmPrincipal"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uPrincipal"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="40"/>
-        <CursorPos X="18" Y="55"/>
-        <UsageCount Value="36"/>
-        <LoadedDesigner Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="ulivros.pas"/>
-        <ComponentName Value="FrmLivros"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uLivros"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="22"/>
-        <CursorPos X="3" Y="61"/>
-        <UsageCount Value="35"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="datamodule.pas"/>
@@ -45,134 +20,32 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="DataModule"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="45" Y="8"/>
-        <UsageCount Value="35"/>
-      </Unit>
-      <Unit>
-        <Filename Value="util.pas"/>
-        <UnitName Value="Util"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="15" Y="18"/>
-        <UsageCount Value="31"/>
-      </Unit>
-      <Unit>
-        <Filename Value="uautor.pas"/>
-        <ComponentName Value="FrmAutor"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uAutor"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="14"/>
-        <CursorPos X="91" Y="37"/>
-        <UsageCount Value="28"/>
-        <LoadedDesigner Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="ueditora.pas"/>
-        <ComponentName Value="FrmEditora"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uEditora"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="14"/>
-        <CursorPos X="27" Y="26"/>
-        <UsageCount Value="26"/>
-        <LoadedDesigner Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="ucategoria.pas"/>
-        <ComponentName Value="FrmCategoria"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uCategoria"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="9"/>
-        <CursorPos X="60" Y="48"/>
-        <UsageCount Value="25"/>
-        <LoadedDesigner Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="heranca\uherancacadastro.pas"/>
-        <ComponentName Value="FrmHerancaCadastro"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uHerancaCadastro"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="24"/>
-        <LoadedDesigner Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="heranca\uheranca.pas"/>
-        <ComponentName Value="FrmHeranca"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uHeranca"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="23"/>
-        <LoadedDesigner Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="cadastros\ucadautor.pas"/>
-        <ComponentName Value="FrmCadastroAutor"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uCadAutor"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="17" Y="29"/>
-        <UsageCount Value="23"/>
-        <LoadedDesigner Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="cadastros\ucadcategoria.pas"/>
-        <ComponentName Value="FrmCadCategoria"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uCadCategoria"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="57" Y="35"/>
-        <UsageCount Value="22"/>
-        <LoadedDesigner Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="cadastros\ucadeditora.pas"/>
-        <ComponentName Value="FrmCadEditora"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uCadEditora"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="57" Y="35"/>
-        <UsageCount Value="22"/>
+        <EditorIndex Value="8"/>
+        <CursorPos X="34" Y="8"/>
+        <UsageCount Value="50"/>
+        <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\model\model.autor.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Model.Autor"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos Y="25"/>
-        <UsageCount Value="22"/>
-      </Unit>
-      <Unit>
-        <Filename Value="uheranca.pas"/>
-        <ComponentName Value="FrmHeranca"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uHeranca"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="10"/>
-        <CursorPos X="17" Y="41"/>
-        <UsageCount Value="25"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="18"/>
+        <CursorPos X="31" Y="46"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\util.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Util"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="6" Y="31"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\uprincipal.pas"/>
@@ -181,9 +54,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uPrincipal"/>
-        <TopLine Value="19"/>
-        <ComponentState Value="2"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="26" Y="10"/>
+        <UsageCount Value="35"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -194,19 +66,22 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
         <Filename Value="src\view\uautor.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmAutor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
         <UnitName Value="uAutor"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="15"/>
+        <CursorPos X="8" Y="50"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\view\ucategoria.lfm"/>
@@ -215,19 +90,21 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
         <Filename Value="src\view\ucategoria.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmCategoria"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCategoria"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="3" Y="9"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\view\ueditora.lfm"/>
@@ -236,7 +113,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -248,7 +125,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
       </Unit>
       <Unit>
         <Filename Value="src\view\ulivros.lfm"/>
@@ -257,7 +134,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -270,7 +147,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
       </Unit>
       <Unit>
         <Filename Value="src\heranca\uheranca.lfm"/>
@@ -279,20 +156,21 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
         <Filename Value="src\heranca\uheranca.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmHeranca"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uHeranca"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
       </Unit>
       <Unit>
         <Filename Value="src\heranca\uherancacadastro.lfm"/>
@@ -301,20 +179,21 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
         <Filename Value="src\heranca\uherancacadastro.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmHerancaCadastro"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uHerancaCadastro"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
       </Unit>
       <Unit>
         <Filename Value="src\cadastros\ucadautor.lfm"/>
@@ -323,20 +202,20 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
         <Filename Value="src\cadastros\ucadautor.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmCadastroAutor"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCadAutor"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="9"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\cadastros\ucadcategoria.lfm"/>
@@ -345,7 +224,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -358,7 +237,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
       </Unit>
       <Unit>
         <Filename Value="src\cadastros\ucadeditora.lfm"/>
@@ -367,7 +246,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="35"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -380,13 +259,264 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="35"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\model\model.conexao.interfaces.pas"/>
+        <UnitName Value="Model.Conexao.Interfaces"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="13"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\model\model.conexao.firedac.pas"/>
+        <UnitName Value="Model.Conexao.Firedac"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="83" Y="21"/>
         <UsageCount Value="20"/>
       </Unit>
+      <Unit>
+        <Filename Value="uprincipal.pas"/>
+        <ComponentName Value="FrmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uPrincipal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <CursorPos X="18" Y="55"/>
+        <UsageCount Value="35"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ulivros.pas"/>
+        <ComponentName Value="FrmLivros"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uLivros"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="22"/>
+        <CursorPos X="3" Y="61"/>
+        <UsageCount Value="34"/>
+      </Unit>
+      <Unit>
+        <Filename Value="util.pas"/>
+        <UnitName Value="Util"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="18"/>
+        <UsageCount Value="30"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uautor.pas"/>
+        <ComponentName Value="FrmAutor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uAutor"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="14"/>
+        <CursorPos X="91" Y="37"/>
+        <UsageCount Value="27"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ueditora.pas"/>
+        <ComponentName Value="FrmEditora"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uEditora"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="14"/>
+        <CursorPos X="27" Y="26"/>
+        <UsageCount Value="25"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ucategoria.pas"/>
+        <ComponentName Value="FrmCategoria"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uCategoria"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <CursorPos X="60" Y="48"/>
+        <UsageCount Value="24"/>
+      </Unit>
+      <Unit>
+        <Filename Value="heranca\uherancacadastro.pas"/>
+        <ComponentName Value="FrmHerancaCadastro"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uHerancaCadastro"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="heranca\uheranca.pas"/>
+        <ComponentName Value="FrmHeranca"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uHeranca"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cadastros\ucadautor.pas"/>
+        <ComponentName Value="FrmCadastroAutor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uCadAutor"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17" Y="29"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cadastros\ucadcategoria.pas"/>
+        <ComponentName Value="FrmCadCategoria"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uCadCategoria"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="57" Y="35"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cadastros\ucadeditora.pas"/>
+        <ComponentName Value="FrmCadEditora"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uCadEditora"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="57" Y="35"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uheranca.pas"/>
+        <ComponentName Value="FrmHeranca"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uHeranca"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="17" Y="41"/>
+        <UsageCount Value="24"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\dao\model.conexao.firedac.pas"/>
+        <UnitName Value="Model.Conexao.Firedac"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="30" Y="37"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\dao\model.conexao.interfaces.pas"/>
+        <UnitName Value="Model.Conexao.Interfaces"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="9"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\components\sqldb\sqlstringspropertyeditordlg.pas"/>
+        <ComponentName Value="SQLStringsPropertyEditorDlg"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SQLStringsPropertyEditorDlg"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="133"/>
+        <CursorPos X="77" Y="153"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\dao\dao.conexao.firedac.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DAO.Conexao.Firedac"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="4"/>
+        <CursorPos X="28" Y="51"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\dao\dao.conexao.interfaces.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DAO.Conexao.Interfaces"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="14" Y="24"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
     </Units>
-    <JumpHistory>
+    <JumpHistory HistoryIndex="18">
+      <Position>
+        <Filename Value="src\view\ucategoria.pas"/>
+        <Caret Line="9" Column="3"/>
+      </Position>
       <Position>
         <Filename Value="src\uprincipal.pas"/>
-        <Caret TopLine="19"/>
+        <Caret Line="10" Column="26"/>
+      </Position>
+      <Position>
+        <Filename Value="src\util.pas"/>
+        <Caret Line="31" Column="6" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="src\view\uautor.pas"/>
+        <Caret Line="50" Column="24" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="src\view\uautor.pas"/>
+        <Caret Line="9" Column="59" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="src\view\uautor.pas"/>
+        <Caret Line="10" Column="27"/>
+      </Position>
+      <Position>
+        <Filename Value="src\view\uautor.pas"/>
+        <Caret Line="9" Column="60"/>
+      </Position>
+      <Position>
+        <Filename Value="src\view\uautor.pas"/>
+        <Caret Line="27" Column="65"/>
+      </Position>
+      <Position>
+        <Filename Value="src\view\uautor.pas"/>
+        <Caret Line="9" Column="60"/>
+      </Position>
+      <Position>
+        <Filename Value="src\view\uautor.pas"/>
+        <Caret Line="10" Column="66"/>
+      </Position>
+      <Position>
+        <Filename Value="src\view\uautor.pas"/>
+        <Caret Line="9" Column="60"/>
+      </Position>
+      <Position>
+        <Filename Value="src\view\uautor.pas"/>
+        <Caret Line="10" Column="36"/>
+      </Position>
+      <Position>
+        <Filename Value="src\dao\dao.conexao.firedac.pas"/>
+        <Caret Line="8" Column="45"/>
+      </Position>
+      <Position>
+        <Filename Value="src\dao\dao.conexao.firedac.pas"/>
+        <Caret Line="51" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="Livros.lpr"/>
+        <Caret Line="14" Column="39"/>
+      </Position>
+      <Position>
+        <Filename Value="src\view\uautor.pas"/>
+        <Caret Line="50" Column="8" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="src\model\model.autor.pas"/>
+        <Caret Line="24" Column="81" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="src\model\model.autor.pas"/>
+        <Caret Line="54" Column="35" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="src\model\model.autor.pas"/>
+        <Caret Line="8" Column="46"/>
       </Position>
     </JumpHistory>
     <RunParams>

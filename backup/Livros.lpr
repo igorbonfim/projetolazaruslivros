@@ -11,8 +11,9 @@ uses
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
   Forms, runtimetypeinfocontrols, printer4lazarus, DataModule, Model.Autor,
-  uPrincipal, uCadAutor, uCadCategoria, uCadEditora, uHeranca, uHerancaCadastro,
-  uAutor, uCategoria, uEditora, uLivros, unit1
+  uPrincipal, DAO.Conexao.Firedac, Model.Conexao.Interfaces, uCadAutor,
+  uCadCategoria, uCadEditora, uHeranca, uHerancaCadastro, uAutor, uCategoria,
+  uEditora, uLivros
   { you can add units after this };
 
 {$R *.res}

@@ -5,8 +5,9 @@ unit uAutor;
 interface
 
 uses
-  Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, uHeranca, ExtCtrls, DBGrids,
-  StdCtrls, Buttons, DataModule, Util, uCadAutor;
+  Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, uHeranca, ExtCtrls,
+  DBGrids, StdCtrls, Buttons, DataModule, Util, DAO.Conexao.Firedac,
+  DAO.Conexao.Interfaces, uCadAutor;
 
 type
 
@@ -18,7 +19,7 @@ type
     procedure btnIncluirClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
-
+    FAutor: iEntidade;
   public
 
   end;
@@ -46,7 +47,7 @@ end;
 
 procedure TFrmAutor.FormCreate(Sender: TObject);
 begin
-  DataModule.DataModule1.QryAutor.Open;
+  FAutor.Listar(dsAutor);
 end;
 
 end.

@@ -1,0 +1,57 @@
+unit Model.Conexao.Firedac;
+
+{$mode ObjFPC}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, Model.Conexao.Interfaces, DB, IBConnection;
+
+type
+
+  { TModelConexaoFiredac }
+
+  TDAOConexaoFiredac = class(TInterfacedObject, iConexao)
+    private
+      FConexao: TIBConnection;
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New: iConexao;
+      function Connection: TCustomConnection;
+  end;
+
+implementation
+
+{ TModelConexaoFiredac }
+
+constructor TDAOConexaoFiredac.Create;
+var
+  Path: String;
+begin
+  Path := ExtractFileDir(GetCurrentDir);
+  FConexao := TIBConnection.Create(nil);
+  FConexao.DatabaseName := Path + '\database\MYBOOKS.FDB';
+  FConexao.UserName := 'SYSDBA';
+  FConexao.Password := 'masterkey';
+  FConexao.Connected := True;
+end;
+
+destructor TModelConexaoFiredac.Destroy;
+begin
+  FreeAndNil(FConexao);
+  inherited Destroy;
+end;
+
+class function TDAOConexaoFiredac.New: iConexao;
+begin
+  Result := Self.Create;
+end;
+
+function TModelConexaoFiredac.Connection: TCustomConnection;
+begin
+  Result := FConexao;
+end;
+
+end.
+
