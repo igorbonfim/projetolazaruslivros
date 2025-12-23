@@ -27,11 +27,13 @@ implementation
 
 constructor TDAOConexaoFiredac.Create;
 var
-  Path: String;
+  ExePath, RootPath: String;
 begin
-  Path := ExtractFileDir(GetCurrentDir);
+  ExePath := ParamStr(0);
+  RootPath := ExtractFileDir(ExePath);
+
   FConexao := TIBConnection.Create(nil);
-  FConexao.DatabaseName := Path + '\database\MYBOOKS.FDB';
+  FConexao.DatabaseName := RootPath + '\database\MYBOOKS.FDB';
   FConexao.UserName := 'SYSDBA';
   FConexao.Password := 'masterkey';
   FConexao.Connected := True;

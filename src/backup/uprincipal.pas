@@ -6,14 +6,15 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, EditBtn,
-  Buttons, Menus, ButtonPanel, ComCtrls, uLivros, Util, uAutor, uEditora,
-  uCategoria, RTTICtrls, PrintersDlgs;
+  Buttons, Menus, ButtonPanel, ComCtrls, StdCtrls, uLivros, Util,
+  DAO.Conexao.Firedac, uAutor, uEditora, uCategoria, RTTICtrls, PrintersDlgs;
 
 type
 
   { TFrmPrincipal }
 
   TFrmPrincipal = class(TForm)
+    lblConectaBanco: TLabel;
     MainMenu1: TMainMenu;
     MenuItem1: TMenuItem;
     MenuItem2: TMenuItem;
@@ -39,6 +40,7 @@ type
     procedure btnEditorasClick(Sender: TObject);
     procedure btnLivrosClick(Sender: TObject);
     procedure btnSairClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
 
   public
@@ -78,6 +80,22 @@ procedure TFrmPrincipal.btnSairClick(Sender: TObject);
 begin
   if(MessageDlg('Deseja encerrar a aplicação?', mtConfirmation, [mbYes, mbNo], 0) = mrYes) then
     Application.Terminate;
+end;
+
+procedure TFrmPrincipal.FormCreate(Sender: TObject);
+var
+  Conecta: TDAOConexaoFiredac;
+begin
+  try
+    Conecta := TDAOConexaoFiredac.Create;
+    Conecta.New;
+    lblConectaBanco.Caption := 'Conectado ao banco de dados';
+  except on ex:exception do
+    begin
+      ShowMessage(ex.Message);
+      lblConectaBanco.Caption := 'Erro na conexão com o banco de dados';
+    end;
+  end;
 end;
 
 end.

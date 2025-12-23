@@ -26,6 +26,15 @@
     </RunParams>
     <RequiredPackages>
       <Item>
+        <PackageName Value="zcomponentdesign"/>
+      </Item>
+      <Item>
+        <PackageName Value="zcomponent"/>
+      </Item>
+      <Item>
+        <PackageName Value="frce"/>
+      </Item>
+      <Item>
         <PackageName Value="Printer4Lazarus"/>
       </Item>
       <Item>
@@ -185,6 +194,19 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="DAO.Conexao.Interfaces"/>
       </Unit>
+      <Unit>
+        <Filename Value="src\controller\controller.factory.interfaces.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\dao\dao.query.firebird.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\controller\controller.factory.query.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Controller.Factory.Query"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -195,7 +217,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="src\model;src;src\view;src\heranca;src\cadastros;src\dao"/>
+      <OtherUnitFiles Value="src\model;src;src\view;src\heranca;src\cadastros;src\dao;src\controller"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>

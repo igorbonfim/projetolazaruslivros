@@ -6,8 +6,8 @@ interface
 
 uses
   Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, uHeranca, ExtCtrls,
-  DBGrids, StdCtrls, Buttons, DataModule, Util, uCadAutor, Model.Conexao.Firedac,
-  Model.Conexao.Interfaces;
+  DBGrids, StdCtrls, Buttons, DataModule, Util, Model.Autor,
+  DAO.Conexao.Firedac, DAO.Conexao.Interfaces, uCadAutor;
 
 type
 
@@ -47,6 +47,7 @@ end;
 
 procedure TFrmAutor.FormCreate(Sender: TObject);
 begin
+  FAutor := TAutor.New;
   FAutor.Listar(dsAutor);
 end;
 

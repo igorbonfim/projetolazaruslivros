@@ -1,23 +1,23 @@
 object FrmPrincipal: TFrmPrincipal
   Left = -8
-  Height = 890
+  Height = 600
   Top = -8
-  Width = 1140
+  Width = 1112
   Caption = 'Livros'
-  ClientHeight = 887
-  ClientWidth = 1140
+  ClientHeight = 600
+  ClientWidth = 1112
   Menu = MainMenu1
   Position = poScreenCenter
-  WindowState = wsMaximized
+  LCLVersion = '3.8.0.0'
   object pnlTopo: TPanel
     Left = 0
     Height = 80
     Top = 0
-    Width = 1140
+    Width = 1112
     Align = alTop
     BevelOuter = bvNone
     ClientHeight = 80
-    ClientWidth = 1140
+    ClientWidth = 1112
     Color = 16373175
     ParentBackground = False
     ParentColor = False
@@ -452,7 +452,7 @@ object FrmPrincipal: TFrmPrincipal
       end
     end
     object pnlSair: TPanel
-      Left = 1044
+      Left = 1016
       Height = 80
       Top = 0
       Width = 96
@@ -562,27 +562,42 @@ object FrmPrincipal: TFrmPrincipal
   object pnlRodape: TPanel
     Left = 0
     Height = 21
-    Top = 866
-    Width = 1140
+    Top = 579
+    Width = 1112
     Align = alBottom
     BevelOuter = bvNone
+    ClientHeight = 21
+    ClientWidth = 1112
     TabOrder = 1
+    object lblConectaBanco: TLabel
+      Left = 0
+      Height = 21
+      Top = 0
+      Width = 1
+      Align = alLeft
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -13
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
   end
   object pnlConteudo: TPanel
     Left = 0
-    Height = 786
+    Height = 499
     Top = 80
-    Width = 1140
+    Width = 1112
     Align = alClient
     BevelOuter = bvNone
-    ClientHeight = 786
-    ClientWidth = 1140
+    ClientHeight = 499
+    ClientWidth = 1112
     TabOrder = 2
     object pgcPrincipal: TPageControl
       Left = 0
-      Height = 786
+      Height = 499
       Top = 0
-      Width = 1140
+      Width = 1112
       Align = alClient
       Font.CharSet = ANSI_CHARSET
       Font.Height = -19

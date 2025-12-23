@@ -9,7 +9,7 @@ uses
 
 type
 
-  { TModelConexaoFiredac }
+  { TDAOConexaoFiredac }
 
   TDAOConexaoFiredac = class(TInterfacedObject, iConexao)
     private
@@ -23,21 +23,23 @@ type
 
 implementation
 
-{ TModelConexaoFiredac }
+{ TDAOConexaoFiredac }
 
 constructor TDAOConexaoFiredac.Create;
 var
-  Path: String;
+  ExePath, RootPath: String;
 begin
-  Path := ExtractFileDir(GetCurrentDir);
-  FConexao := TIBConnection.Create(nil);
-  FConexao.DatabaseName := Path + '\database\MYBOOKS.FDB';
-  FConexao.UserName := 'SYSDBA';
+  ExePath := ParamStr(0);
+  RootPath := ExtractFileDir(ExePath);
+
+  FConexao := TZConnection.Create(nil);
+  FConexao.Database := RootPath + '\database\MYBOOKS.FDB';
+  FConexao.User := 'SYSDBA';
   FConexao.Password := 'masterkey';
   FConexao.Connected := True;
 end;
 
-destructor TModelConexaoFiredac.Destroy;
+destructor TDAOConexaoFiredac.Destroy;
 begin
   FreeAndNil(FConexao);
   inherited Destroy;
@@ -48,7 +50,7 @@ begin
   Result := Self.Create;
 end;
 
-function TModelConexaoFiredac.Connection: TCustomConnection;
+function TDAOConexaoFiredac.Connection: TCustomConnection;
 begin
   Result := FConexao;
 end;

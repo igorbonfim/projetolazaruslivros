@@ -6,14 +6,15 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, EditBtn,
-  Buttons, Menus, ButtonPanel, ComCtrls, uLivros, Util, uAutor, uEditora,
-  uCategoria, RTTICtrls, PrintersDlgs;
+  Buttons, Menus, ButtonPanel, ComCtrls, StdCtrls, uLivros, Util,
+  DAO.Conexao.Firedac, uAutor, uEditora, uCategoria, RTTICtrls, PrintersDlgs;
 
 type
 
   { TFrmPrincipal }
 
   TFrmPrincipal = class(TForm)
+    lblConectaBanco: TLabel;
     MainMenu1: TMainMenu;
     MenuItem1: TMenuItem;
     MenuItem2: TMenuItem;

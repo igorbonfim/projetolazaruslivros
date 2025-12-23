@@ -5,7 +5,8 @@ unit DataModule;
 interface
 
 uses
-  Classes, SysUtils, IBConnection, SQLDB, DB;
+  Classes, SysUtils, ExtCtrls, ZDataset, ZConnection, RLParser, IBConnection,
+  SQLDB, DB;
 
 type
 
@@ -22,7 +23,6 @@ type
     QryAutorID1: TLongintField;
     QryCategoria: TSQLQuery;
     QryLivros: TSQLQuery;
-    QryAutor: TSQLQuery;
     QryLivrosANO: TStringField;
     QryLivrosDATAAQUISICAO: TDateField;
     QryLivrosID: TLongintField;
@@ -35,7 +35,6 @@ type
     QryLivrosNOME: TStringField;
     QryLivrosQTDPAGINAS: TLongintField;
     QryLivrosSINOPSE: TStringField;
-    SQLTransaction1: TSQLTransaction;
   private
 
   public

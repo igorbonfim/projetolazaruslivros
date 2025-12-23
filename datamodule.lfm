@@ -208,55 +208,6 @@ object DataModule1: TDataModule1
       Required = False
     end
   end
-  object SQLTransaction1: TSQLTransaction
-    Active = True
-    Database = Connection
-    Left = 216
-    Top = 24
-  end
-  object QryAutor: TSQLQuery
-    MaxIndexesCount = 4
-    FieldDefs = <    
-      item
-        Name = 'ID'
-        DataType = ftInteger
-        Precision = -1
-      end    
-      item
-        Name = 'DESCRICAO'
-        DataType = ftString
-        Precision = -1
-        Size = 50
-      end>
-    Database = Connection
-    Transaction = SQLTransaction1
-    SQL.Strings = (
-      'SELECT * FROM AUTOR'
-    )
-    Params = <>
-    Macros = <>
-    Left = 32
-    Top = 104
-    object QryAutorID: TLongintField
-      FieldKind = fkData
-      FieldName = 'ID'
-      Index = 0
-      LookupCache = False
-      ProviderFlags = [pfInUpdate, pfInWhere]
-      ReadOnly = False
-      Required = True
-    end
-    object QryAutorDESCRICAO: TStringField
-      FieldKind = fkData
-      FieldName = 'DESCRICAO'
-      Index = 1
-      LookupCache = False
-      ProviderFlags = [pfInUpdate, pfInWhere]
-      ReadOnly = False
-      Required = True
-      Size = 50
-    end
-  end
   object QryEditora: TSQLQuery
     MaxIndexesCount = 4
     FieldDefs = <    
@@ -278,7 +229,7 @@ object DataModule1: TDataModule1
     )
     Params = <>
     Macros = <>
-    Left = 125
+    Left = 32
     Top = 104
     object QryAutorID1: TLongintField
       FieldKind = fkData
@@ -322,7 +273,7 @@ object DataModule1: TDataModule1
     Params = <>
     Macros = <>
     Left = 216
-    Top = 104
+    Top = 24
     object QryCategoriaID: TLongintField
       FieldKind = fkData
       FieldName = 'ID'
@@ -342,5 +293,11 @@ object DataModule1: TDataModule1
       Required = True
       Size = 50
     end
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    Database = Connection
+    Left = 125
+    Top = 104
   end
 end

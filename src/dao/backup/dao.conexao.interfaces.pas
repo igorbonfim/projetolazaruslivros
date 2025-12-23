@@ -1,4 +1,4 @@
-unit Model.Conexao.Interfaces;
+unit DAO.Conexao.Interfaces;
 
 {$mode ObjFPC}{$H+}
 
