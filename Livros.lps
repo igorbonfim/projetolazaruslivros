@@ -31,7 +31,8 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Model.Autor"/>
         <EditorIndex Value="3"/>
-        <CursorPos X="12" Y="15"/>
+        <TopLine Value="25"/>
+        <CursorPos X="21" Y="49"/>
         <UsageCount Value="46"/>
         <Loaded Value="True"/>
       </Unit>
@@ -74,9 +75,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uAutor"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <TopLine Value="24"/>
-        <CursorPos Y="49"/>
+        <CursorPos X="24" Y="50"/>
         <UsageCount Value="44"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -274,7 +276,6 @@
         <Filename Value="src\dao\dao.conexao.interfaces.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="DAO.Conexao.Interfaces"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="6"/>
         <CursorPos X="52" Y="24"/>
         <UsageCount Value="30"/>
@@ -292,7 +293,7 @@
         <Filename Value="src\dao\dao.query.firebird.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="4"/>
-        <TopLine Value="14"/>
+        <TopLine Value="11"/>
         <CursorPos X="38" Y="43"/>
         <UsageCount Value="26"/>
         <Loaded Value="True"/>

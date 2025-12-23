@@ -30,10 +30,8 @@
         <Filename Value="src\model\model.autor.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Model.Autor"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="2"/>
-        <CursorPos X="54" Y="26"/>
+        <CursorPos X="12" Y="15"/>
         <UsageCount Value="46"/>
         <Loaded Value="True"/>
       </Unit>
@@ -276,8 +274,9 @@
         <Filename Value="src\dao\dao.conexao.interfaces.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="DAO.Conexao.Interfaces"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="6"/>
-        <CursorPos X="3" Y="11"/>
+        <CursorPos X="52" Y="24"/>
         <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit>
@@ -496,14 +495,6 @@
     <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="src\view\uautor.pas"/>
-        <Caret Line="49" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="src\view\uautor.pas"/>
-        <Caret Line="50" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="src\view\uautor.pas"/>
         <Caret Line="51" TopLine="24"/>
       </Position>
       <Position>
@@ -613,6 +604,14 @@
       <Position>
         <Filename Value="datamodule.pas"/>
         <Caret Line="8" Column="55" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="src\model\model.autor.pas"/>
+        <Caret Line="26" Column="54" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="src\model\model.autor.pas"/>
+        <Caret Line="15" Column="12"/>
       </Position>
     </JumpHistory>
     <RunParams>

@@ -47,7 +47,7 @@ end;
 
 procedure TFrmAutor.FormCreate(Sender: TObject);
 begin
-  FAutor := TAutor.New;
+  FAutor := TModelAutor.New;
   FAutor.Listar(dsAutor);
 end;
 

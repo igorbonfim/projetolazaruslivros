@@ -27,7 +27,6 @@ inherited FrmAutor: TFrmAutor
     end
   end
   object dsAutor: TDataSource[3]
-    DataSet = DataModule1.QryAutor
     Left = 400
     Top = 232
   end

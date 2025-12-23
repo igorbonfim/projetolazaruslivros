@@ -12,7 +12,7 @@ type
 
   { TAutor }
 
-  TAutor = class(TInterfacedObject, iEntidade)
+  TModelAutor = class(TInterfacedObject, iEntidade)
     private
       FQuery: iQuery;
       FId : Integer;
@@ -30,23 +30,23 @@ implementation
 
 { TAutor }
 
-constructor TAutor.Create;
+constructor TModelAutor.Create;
 begin
   FQuery := TControllerFactoryQuery.New.Query(nil);
 end;
 
-destructor TAutor.Destroy;
+destructor TModelAutor.Destroy;
 begin
 
   inherited Destroy;
 end;
 
-class function TAutor.New(): iEntidade;
+class function TModelAutor.New(): iEntidade;
 begin
   Result := Self.Create;
 end;
 
-function TAutor.Listar(Value: TDataSource): iEntidade;
+function TModelAutor.Listar(Value: TDataSource): iEntidade;
 begin
   Result := Self;
   FQuery.SQL('SELECT * FROM AUTOR');

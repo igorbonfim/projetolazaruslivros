@@ -12,7 +12,7 @@ type
 
   { TAutor }
 
-  TAutor = class(TInterfacedObject, iEntidade)
+  TModelAutor = class(TInterfacedObject, iEntidade)
     private
       FQuery: iQuery;
       FId : Integer;
@@ -24,7 +24,6 @@ type
       destructor Destroy; override;
       class function New: iEntidade;
       function Listar(Value: TDataSource): iEntidade;
-      function ListarCampos(Fields: String; DataSource: TDataSource): iEntidade;
   end;
 
 implementation
@@ -52,14 +51,6 @@ begin
   Result := Self;
   FQuery.SQL('SELECT * FROM AUTOR');
   Value.DataSet := FQuery.DataSet;
-end;
-
-function TAutor.ListarCampos(Fields: String; DataSource: TDataSource
-  ): iEntidade;
-begin
-  Result := Self;
-  FQuery.SQL('SELECT '+Fields+'FROM AUTOR');
-  DataSource.DataSet := FQuery.DataSet;
 end;
 
 end.
