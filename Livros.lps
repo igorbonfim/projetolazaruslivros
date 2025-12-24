@@ -19,7 +19,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="DataModule"/>
-        <EditorIndex Value="12"/>
+        <EditorIndex Value="13"/>
         <CursorPos X="43" Y="8"/>
         <UsageCount Value="60"/>
         <Loaded Value="True"/>
@@ -29,7 +29,7 @@
         <Filename Value="src\model\model.autor.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Model.Autor"/>
-        <EditorIndex Value="7"/>
+        <EditorIndex Value="8"/>
         <TopLine Value="24"/>
         <CursorPos X="82" Y="8"/>
         <UsageCount Value="47"/>
@@ -39,7 +39,7 @@
         <Filename Value="src\util.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Util"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="5"/>
         <TopLine Value="14"/>
         <CursorPos X="15" Y="26"/>
         <UsageCount Value="45"/>
@@ -99,7 +99,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCategoria"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="6"/>
         <TopLine Value="23"/>
         <CursorPos X="26" Y="46"/>
         <UsageCount Value="45"/>
@@ -124,8 +124,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uEditora"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="22"/>
-        <CursorPos X="3" Y="9"/>
+        <TopLine Value="24"/>
+        <CursorPos X="24" Y="46"/>
         <UsageCount Value="45"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -148,6 +148,7 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uLivros"/>
         <EditorIndex Value="2"/>
+        <TopLine Value="34"/>
         <CursorPos X="3" Y="9"/>
         <UsageCount Value="45"/>
         <Loaded Value="True"/>
@@ -267,7 +268,7 @@
         <Filename Value="src\dao\dao.conexao.firedac.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="DAO.Conexao.Firedac"/>
-        <EditorIndex Value="10"/>
+        <EditorIndex Value="11"/>
         <TopLine Value="15"/>
         <CursorPos X="20" Y="37"/>
         <UsageCount Value="31"/>
@@ -277,7 +278,7 @@
         <Filename Value="src\dao\dao.conexao.interfaces.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="DAO.Conexao.Interfaces"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="7"/>
         <CursorPos X="18" Y="12"/>
         <UsageCount Value="31"/>
         <Loaded Value="True"/>
@@ -292,7 +293,7 @@
       <Unit>
         <Filename Value="src\dao\dao.query.firebird.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="9"/>
+        <EditorIndex Value="10"/>
         <CursorPos X="3" Y="9"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
@@ -301,7 +302,7 @@
         <Filename Value="src\controller\controller.factory.query.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Controller.Factory.Query"/>
-        <EditorIndex Value="11"/>
+        <EditorIndex Value="12"/>
         <TopLine Value="4"/>
         <CursorPos X="47" Y="44"/>
         <UsageCount Value="27"/>
@@ -495,18 +496,24 @@
         <Filename Value="src\model\model.categoria.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Model.Categoria"/>
-        <EditorIndex Value="8"/>
+        <EditorIndex Value="9"/>
         <TopLine Value="23"/>
         <CursorPos X="18" Y="49"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\model\model.editora.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Model.Editora"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="23"/>
+        <CursorPos X="34" Y="51"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="datamodule.pas"/>
-        <Caret Line="8" Column="55" TopLine="13"/>
-      </Position>
+    <JumpHistory HistoryIndex="28">
       <Position>
         <Filename Value="src\view\uautor.pas"/>
         <Caret Line="55" TopLine="25"/>

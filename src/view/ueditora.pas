@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, uHeranca, ExtCtrls, DBGrids,
-  Buttons, DataModule, Util, uCadEditora;
+  Buttons, DataModule, Util, Model.Editora, DAO.Conexao.Interfaces, uCadEditora;
 
 type
 
@@ -18,7 +18,7 @@ type
     procedure btnIncluirClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
-
+    FEditora: iEntidade;
   public
 
   end;
@@ -36,12 +36,14 @@ uses uPrincipal;
 
 procedure TFrmEditora.FormCreate(Sender: TObject);
 begin
-  DataModule.DataModule1.QryEditora.Open;
+  FEditora := TModelEditora.New;
+  FEditora.Listar(dsEditora);
 end;
 
 procedure TFrmEditora.btnFecharClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
+  FreeAndNil(FEditora);
 end;
 
 procedure TFrmEditora.btnIncluirClick(Sender: TObject);
