@@ -5,8 +5,9 @@ unit uCategoria;
 interface
 
 uses
-  Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, uHeranca, ExtCtrls, DBGrids,
-  Buttons, DataModule, Util, uCadCategoria;
+  Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, uHeranca, ExtCtrls,
+  DBGrids, Buttons, DataModule, Util, DAO.Conexao.Interfaces, Model.Categoria,
+  uCadCategoria;
 type
 
   { TFrmCategoria }
@@ -17,7 +18,7 @@ type
     procedure btnIncluirClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
-
+    FCategoria: iEntidade;
   public
 
   end;
@@ -35,12 +36,14 @@ uses uPrincipal;
 
 procedure TFrmCategoria.FormCreate(Sender: TObject);
 begin
-  DataModule.DataModule1.QryCategoria.Open;
+  FCategoria := TModelCategoria.New;
+  FCategoria.Listar(dsCategoria);
 end;
 
 procedure TFrmCategoria.btnFecharClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
+  FreeAndNil(FCategoria);
 end;
 
 procedure TFrmCategoria.btnIncluirClick(Sender: TObject);

@@ -6,8 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  Buttons, Menus, ComCtrls, StdCtrls, uLivros, Util, DAO.Conexao.Firedac,
-  uAutor, uEditora, uCategoria, RTTICtrls;
+  Buttons, Menus, ComCtrls, StdCtrls, uLivros, Util, uAutor, uEditora, uCategoria, RTTICtrls;
 
 type
 

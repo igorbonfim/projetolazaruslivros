@@ -210,6 +210,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Controller.Factory.Query"/>
       </Unit>
+      <Unit>
+        <Filename Value="src\model\model.categoria.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Model.Categoria"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

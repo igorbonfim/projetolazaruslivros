@@ -8,7 +8,7 @@ object FrmPrincipal: TFrmPrincipal
   ClientWidth = 1112
   Menu = MainMenu1
   Position = poScreenCenter
-  LCLVersion = '3.8.0.0'
+  WindowState = wsMaximized
   object pnlTopo: TPanel
     Left = 0
     Height = 80
