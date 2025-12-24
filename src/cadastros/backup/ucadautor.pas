@@ -13,6 +13,7 @@ type
 
   TFrmCadastroAutor = class(TFrmHerancaCadastro)
     procedure btnCancelarClick(Sender: TObject);
+    procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
   private
 
   public
@@ -33,6 +34,12 @@ uses uPrincipal;
 procedure TFrmCadastroAutor.btnCancelarClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
+end;
+
+procedure TFrmCadastroAutor.FormClose(Sender: TObject;
+  var CloseAction: TCloseAction);
+begin
+  FrmCadastroAutor.Release;
 end;
 
 end.
