@@ -5,8 +5,7 @@ unit Model.Autor;
 interface
 
 uses
-  Classes, SysUtils, DAO.Conexao.Interfaces, dao.query.firebird, DataModule,
-  Controller.Factory.Query, DB, SQLDB;
+  Classes, SysUtils, DAO.Conexao.Interfaces, Controller.Factory.Query, DB, SQLDB;
 
 type
 

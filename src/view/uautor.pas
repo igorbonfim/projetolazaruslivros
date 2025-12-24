@@ -6,8 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, uHeranca, ExtCtrls,
-  DBGrids, StdCtrls, Buttons, DataModule, Util, Model.Autor,
-  DAO.Conexao.Firedac, DAO.Conexao.Interfaces, uCadAutor;
+  DBGrids, Buttons, Util, Model.Autor, DAO.Conexao.Interfaces, uCadAutor;
 
 type
 
@@ -38,6 +37,7 @@ uses uPrincipal;
 procedure TFrmAutor.btnFecharClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
+  FreeAndNil(FAutor);
 end;
 
 procedure TFrmAutor.btnIncluirClick(Sender: TObject);

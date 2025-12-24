@@ -5,7 +5,7 @@ unit Model.Autor;
 interface
 
 uses
-  Classes, SysUtils, DAO.Conexao.Interfaces, dao.query.firebird, DataModule,
+  Classes, SysUtils, DAO.Conexao.Interfaces, dao.query.firebird,
   Controller.Factory.Query, DB, SQLDB;
 
 type
@@ -30,23 +30,23 @@ implementation
 
 { TAutor }
 
-constructor TAutor.Create;
+constructor TModelAutor.Create;
 begin
   FQuery := TControllerFactoryQuery.New.Query(nil);
 end;
 
-destructor TAutor.Destroy;
+destructor TModelAutor.Destroy;
 begin
 
   inherited Destroy;
 end;
 
-class function TAutor.New(): iEntidade;
+class function TModelAutor.New(): iEntidade;
 begin
   Result := Self.Create;
 end;
 
-function TAutor.Listar(Value: TDataSource): iEntidade;
+function TModelAutor.Listar(Value: TDataSource): iEntidade;
 begin
   Result := Self;
   FQuery.SQL('SELECT * FROM AUTOR');

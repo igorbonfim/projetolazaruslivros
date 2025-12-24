@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, DAO.Conexao.Interfaces, DAO.Conexao.Firedac,
-  controller.factory.interfaces, DataModule, SQLDB, IBConnection, ZDataset;
+  SQLDB, IBConnection;
 
 type
 

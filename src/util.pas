@@ -24,7 +24,6 @@ procedure TUtil.CriarAba(aForm: TFormClass; aPageControl: TPageControl);
 var
   TabSheet: TTabSheet;
   Form: TForm;
-  Util: TUtil;
 begin
   Form := aForm.Create(nil);
 

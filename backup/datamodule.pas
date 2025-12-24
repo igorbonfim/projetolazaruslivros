@@ -35,6 +35,7 @@ type
     QryLivrosNOME: TStringField;
     QryLivrosQTDPAGINAS: TLongintField;
     QryLivrosSINOPSE: TStringField;
+    SQLTransaction1: TSQLTransaction;
   private
 
   public

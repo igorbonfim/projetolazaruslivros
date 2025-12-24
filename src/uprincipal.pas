@@ -5,9 +5,8 @@ unit uPrincipal;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, EditBtn,
-  Buttons, Menus, ButtonPanel, ComCtrls, StdCtrls, uLivros, Util,
-  DAO.Conexao.Firedac, uAutor, uEditora, uCategoria, RTTICtrls, PrintersDlgs;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls,
+  Buttons, Menus, ComCtrls, StdCtrls, uLivros, Util, uAutor, uEditora, uCategoria, RTTICtrls;
 
 type
 

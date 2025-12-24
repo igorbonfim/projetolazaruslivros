@@ -113,6 +113,8 @@
         <Filename Value="src\view\ueditora.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmEditora"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
         <UnitName Value="uEditora"/>
       </Unit>
       <Unit>
@@ -123,6 +125,7 @@
         <Filename Value="src\view\ulivros.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmLivros"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uLivros"/>
       </Unit>

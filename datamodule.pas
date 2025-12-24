@@ -5,7 +5,7 @@ unit DataModule;
 interface
 
 uses
-  Classes, SysUtils, ExtCtrls, ZDataset, ZConnection, RLParser, IBConnection,
+  Classes, SysUtils, ExtCtrls, IBConnection,
   SQLDB, DB;
 
 type

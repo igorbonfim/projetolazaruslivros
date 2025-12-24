@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, DAO.Conexao.Interfaces, DAO.Conexao.Firedac,
-  controller.factory.interfaces, DataModule, SQLDB, IBConnection, ZDataset;
+  controller.factory.interfaces, SQLDB, IBConnection;
 
 type
 
@@ -33,11 +33,13 @@ constructor TDAOQueryFirebird.Create(Parent: iConexao);
 begin
   FParent := Parent;
   FQuery := TSQLQuery.Create(nil);
+  FTransaction := TSQLTransaction.Create(nil);
 
   if not Assigned(FParent) then
     FParent := TDAOConexaoFiredac.New;
 
   FQuery.SQLConnection := TIBConnection(FParent.Connection);
+  FTransaction.DataBase := TDataBase(FParent.Connection);
   FQuery.Transaction := FTransaction;
 end;
 

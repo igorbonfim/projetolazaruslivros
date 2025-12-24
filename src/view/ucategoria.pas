@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, uHeranca, ExtCtrls, DBGrids,
-  StdCtrls, Buttons, DataModule, Util, uCadCategoria;
+  Buttons, DataModule, Util, uCadCategoria;
 type
 
   { TFrmCategoria }

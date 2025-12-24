@@ -7,6 +7,7 @@ object FrmLivros: TFrmLivros
   ClientHeight = 622
   ClientWidth = 1125
   OnCreate = FormCreate
+  LCLVersion = '3.8.0.0'
   object pnlTopo: TPanel
     Left = 0
     Height = 80

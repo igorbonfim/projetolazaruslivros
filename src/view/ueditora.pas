@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, uHeranca, ExtCtrls, DBGrids,
-  StdCtrls, Buttons, DataModule, Util, uCadEditora;
+  Buttons, DataModule, Util, uCadEditora;
 
 type
 

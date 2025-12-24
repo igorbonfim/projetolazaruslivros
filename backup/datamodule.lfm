@@ -10,6 +10,7 @@ object DataModule1: TDataModule1
     DatabaseName = 'C:\Projetos\Cadastro de Livros - Lazarus\database\MYBOOKS.FDB'
     KeepConnection = False
     Password = 'masterkey'
+    Transaction = SQLTransaction1
     UserName = 'SYSDBA'
     HostName = 'localhost'
     CheckTransactionParams = False
@@ -86,6 +87,7 @@ object DataModule1: TDataModule1
         Precision = -1
       end>
     Database = Connection
+    Transaction = SQLTransaction1
     SQL.Strings = (
       'SELECT * FROM LIVRO'
     )
@@ -221,6 +223,7 @@ object DataModule1: TDataModule1
         Size = 50
       end>
     Database = Connection
+    Transaction = SQLTransaction1
     SQL.Strings = (
       'SELECT * FROM EDITORA'
     )
@@ -263,6 +266,7 @@ object DataModule1: TDataModule1
         Size = 50
       end>
     Database = Connection
+    Transaction = SQLTransaction1
     SQL.Strings = (
       'SELECT * FROM CATEGORIA'
     )
@@ -289,5 +293,11 @@ object DataModule1: TDataModule1
       Required = True
       Size = 50
     end
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    Database = Connection
+    Left = 125
+    Top = 104
   end
 end
