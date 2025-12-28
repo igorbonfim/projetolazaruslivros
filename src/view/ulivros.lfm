@@ -7,7 +7,6 @@ object FrmLivros: TFrmLivros
   ClientHeight = 622
   ClientWidth = 1125
   OnCreate = FormCreate
-  LCLVersion = '3.8.0.0'
   object pnlTopo: TPanel
     Left = 0
     Height = 80
@@ -508,6 +507,21 @@ object FrmLivros: TFrmLivros
           FieldName = 'NOME'
         end      
         item
+          Title.Caption = 'Autor'
+          Width = 100
+          FieldName = 'AUTOR'
+        end      
+        item
+          Title.Caption = 'Categoria'
+          Width = 100
+          FieldName = 'CATEGORIA'
+        end      
+        item
+          Title.Caption = 'Editora'
+          Width = 100
+          FieldName = 'EDITORA'
+        end      
+        item
           Title.Caption = 'Ano'
           FieldName = 'ANO'
         end      
@@ -529,7 +543,6 @@ object FrmLivros: TFrmLivros
     end
   end
   object dsLivros: TDataSource
-    DataSet = DataModule1.QryLivros
     Left = 384
     Top = 192
   end

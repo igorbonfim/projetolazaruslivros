@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, ExtCtrls, DBGrids,
-  Buttons, DataModule, Util;
+  Buttons, DataModule, Util, Model.Livro, DAO.Conexao.Interfaces;
 
 type
 
@@ -29,7 +29,7 @@ type
     procedure btnFecharTopoClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
-
+    FLivro: iEntidade;
   public
     Util: TUTil;
   end;
@@ -46,11 +46,6 @@ uses uPrincipal;
 
 { TFrmLivros }
 
-procedure TFrmLivros.FormCreate(Sender: TObject);
-begin
-  DataModule.DataModule1.QryLivros.Open;
-end;
-
 procedure TFrmLivros.btnFecharClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
@@ -59,6 +54,12 @@ end;
 procedure TFrmLivros.btnFecharTopoClick(Sender: TObject);
 begin
   btnFecharClick(Sender);
+end;
+
+procedure TFrmLivros.FormCreate(Sender: TObject);
+begin
+  FLivro := TModelLivro.New;
+  FLivro.Listar(dsLivros);
 end;
 
 end.

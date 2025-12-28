@@ -14,7 +14,8 @@ uses
   Model.Autor, uPrincipal, DAO.Conexao.Firedac, DAO.Conexao.Interfaces,
   uCadAutor, uCadCategoria, uCadEditora, uHeranca, uHerancaCadastro, uAutor,
   uCategoria, uEditora, uLivros, controller.factory.interfaces,
-  dao.query.firebird, Controller.Factory.Query, Model.Categoria, Model.Editora;
+  dao.query.firebird, Controller.Factory.Query, Model.Categoria, Model.Editora,
+  Model.Livro;
 
 {$R *.res}
 

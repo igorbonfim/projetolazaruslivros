@@ -221,6 +221,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Model.Editora"/>
       </Unit>
+      <Unit>
+        <Filename Value="src\model\model.livro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Model.Livro"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
