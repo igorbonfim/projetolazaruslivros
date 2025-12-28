@@ -37,7 +37,6 @@ uses uPrincipal;
 procedure TFrmAutor.btnFecharClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
-  FreeAndNil(FAutor);
 end;
 
 procedure TFrmAutor.btnIncluirClick(Sender: TObject);

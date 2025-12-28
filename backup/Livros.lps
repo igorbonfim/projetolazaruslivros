@@ -10,7 +10,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="53" Y="27"/>
-        <UsageCount Value="63"/>
+        <UsageCount Value="64"/>
       </Unit>
       <Unit>
         <Filename Value="datamodule.pas"/>
@@ -19,9 +19,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="DataModule"/>
-        <EditorIndex Value="16"/>
+        <EditorIndex Value="17"/>
         <CursorPos X="43" Y="8"/>
-        <UsageCount Value="62"/>
+        <UsageCount Value="63"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -29,10 +29,10 @@
         <Filename Value="src\model\model.autor.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Model.Autor"/>
-        <EditorIndex Value="11"/>
+        <EditorIndex Value="12"/>
         <TopLine Value="24"/>
         <CursorPos X="82" Y="8"/>
-        <UsageCount Value="49"/>
+        <UsageCount Value="50"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -42,7 +42,7 @@
         <EditorIndex Value="8"/>
         <TopLine Value="56"/>
         <CursorPos X="13" Y="80"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -52,9 +52,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uPrincipal"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="53" Y="9"/>
-        <UsageCount Value="47"/>
+        <TopLine Value="4"/>
+        <CursorPos Y="4"/>
+        <ComponentState Value="2"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -65,7 +66,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -76,9 +77,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uAutor"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="29"/>
-        <CursorPos X="32" Y="41"/>
-        <UsageCount Value="47"/>
+        <TopLine Value="23"/>
+        <CursorPos X="59" Y="39"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -89,7 +90,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -99,10 +100,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCategoria"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="9"/>
         <TopLine Value="23"/>
-        <CursorPos Y="46"/>
-        <UsageCount Value="47"/>
+        <CursorPos X="59" Y="45"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -113,7 +115,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -126,7 +128,7 @@
         <EditorIndex Value="6"/>
         <TopLine Value="24"/>
         <CursorPos X="24" Y="46"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -137,7 +139,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -148,9 +150,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uLivros"/>
         <EditorIndex Value="5"/>
-        <TopLine Value="34"/>
-        <CursorPos X="3" Y="9"/>
-        <UsageCount Value="47"/>
+        <TopLine Value="27"/>
+        <CursorPos Y="51"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -161,7 +163,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -173,7 +175,7 @@
         <UnitName Value="uHeranca"/>
         <EditorIndex Value="3"/>
         <TopLine Value="16"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -184,7 +186,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -195,7 +197,7 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uHerancaCadastro"/>
         <EditorIndex Value="2"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -206,7 +208,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -219,7 +221,7 @@
         <EditorIndex Value="4"/>
         <TopLine Value="8"/>
         <CursorPos Y="37"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -230,20 +232,21 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
         <Filename Value="src\cadastros\ucadcategoria.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmCadCategoria"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCadCategoria"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="47"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="8"/>
+        <UsageCount Value="48"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\cadastros\ucadeditora.lfm"/>
@@ -252,7 +255,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -265,25 +268,25 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
       </Unit>
       <Unit>
         <Filename Value="src\dao\dao.conexao.firedac.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="DAO.Conexao.Firedac"/>
-        <EditorIndex Value="14"/>
+        <EditorIndex Value="15"/>
         <TopLine Value="15"/>
         <CursorPos X="20" Y="37"/>
-        <UsageCount Value="33"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\dao\dao.conexao.interfaces.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="DAO.Conexao.Interfaces"/>
-        <EditorIndex Value="10"/>
+        <EditorIndex Value="11"/>
         <CursorPos X="18" Y="12"/>
-        <UsageCount Value="33"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -291,24 +294,45 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="14" Y="13"/>
-        <UsageCount Value="32"/>
+        <UsageCount Value="33"/>
       </Unit>
       <Unit>
         <Filename Value="src\dao\dao.query.firebird.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="13"/>
-        <CursorPos X="3" Y="9"/>
-        <UsageCount Value="29"/>
+        <EditorIndex Value="14"/>
+        <TopLine Value="37"/>
+        <CursorPos X="22" Y="23"/>
+        <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\controller\controller.factory.query.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Controller.Factory.Query"/>
-        <EditorIndex Value="15"/>
-        <TopLine Value="4"/>
+        <EditorIndex Value="16"/>
+        <TopLine Value="16"/>
         <CursorPos X="47" Y="44"/>
-        <UsageCount Value="29"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\model\model.categoria.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Model.Categoria"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="11"/>
+        <CursorPos X="57" Y="37"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\model\model.editora.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Model.Editora"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="23"/>
+        <CursorPos X="34" Y="51"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -495,44 +519,8 @@
         <CursorPos X="3" Y="63"/>
         <UsageCount Value="10"/>
       </Unit>
-      <Unit>
-        <Filename Value="src\model\model.categoria.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="Model.Categoria"/>
-        <EditorIndex Value="12"/>
-        <TopLine Value="23"/>
-        <CursorPos X="18" Y="49"/>
-        <UsageCount Value="22"/>
-        <Loaded Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="src\model\model.editora.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="Model.Editora"/>
-        <EditorIndex Value="7"/>
-        <TopLine Value="23"/>
-        <CursorPos X="34" Y="51"/>
-        <UsageCount Value="22"/>
-        <Loaded Value="True"/>
-      </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="src\util.pas"/>
-        <Caret Line="19" Column="18" TopLine="8"/>
-      </Position>
-      <Position>
-        <Filename Value="src\uprincipal.pas"/>
-        <Caret Line="10" Column="42"/>
-      </Position>
-      <Position>
-        <Filename Value="src\view\uautor.pas"/>
-        <Caret Line="51" Column="22" TopLine="30"/>
-      </Position>
-      <Position>
-        <Filename Value="src\model\model.autor.pas"/>
-        <Caret Line="8" Column="46"/>
-      </Position>
       <Position>
         <Filename Value="src\dao\dao.query.firebird.pas"/>
         <Caret Line="9" Column="18"/>
@@ -634,8 +622,24 @@
         <Caret Line="40" Column="14" TopLine="29"/>
       </Position>
       <Position>
-        <Filename Value="src\cadastros\ucadautor.pas"/>
-        <Caret TopLine="8"/>
+        <Filename Value="src\uprincipal.pas"/>
+        <Caret Line="9" Column="53"/>
+      </Position>
+      <Position>
+        <Filename Value="src\controller\controller.factory.query.pas"/>
+        <Caret Line="44" Column="47" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="src\uprincipal.pas"/>
+        <Caret Line="9" Column="53" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="src\uprincipal.pas"/>
+        <Caret Line="4" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="src\view\ucategoria.pas"/>
+        <Caret Line="46" Column="5" TopLine="24"/>
       </Position>
     </JumpHistory>
     <RunParams>

@@ -36,13 +36,8 @@ uses uPrincipal;
 
 procedure TFrmAutor.btnFecharClick(Sender: TObject);
 begin
-  if not Assigned(TForm(TFrmCadastroAutor)) then
-  begin
-    Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
-    FreeAndNil(FAutor);
-  end
-  else
-    ShowMessage('Feche a tela de cadastro de autor');
+  Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
+  FreeAndNil(FAutor);
 end;
 
 procedure TFrmAutor.btnIncluirClick(Sender: TObject);
