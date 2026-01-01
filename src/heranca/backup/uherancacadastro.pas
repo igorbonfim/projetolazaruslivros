@@ -14,13 +14,13 @@ type
 
   TFrmHerancaCadastro = class(TForm)
     btnCancelar: TSpeedButton;
-    edtID: TDBEdit;
-    edtDescricao: TDBEdit;
+    edtId: TEdit;
+    edtDescricao: TEdit;
     Image1: TImage;
     lblID: TLabel;
     Label2: TLabel;
     lblCadastro: TLabel;
-    pnlLine: TPanel;
+    pnlLineBottom: TPanel;
     pnlRodape: TPanel;
     pnlTopoCadastro: TPanel;
     btnSalvar: TSpeedButton;

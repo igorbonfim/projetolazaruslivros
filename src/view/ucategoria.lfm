@@ -28,7 +28,6 @@ inherited FrmCategoria: TFrmCategoria
     end
   end
   object dsCategoria: TDataSource[3]
-    DataSet = DataModule1.QryCategoria
     Left = 448
     Top = 208
   end

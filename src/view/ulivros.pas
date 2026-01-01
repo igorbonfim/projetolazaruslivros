@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, ExtCtrls, DBGrids,
-  Buttons, DataModule, Util, Model.Livro, DAO.Conexao.Interfaces;
+  Buttons, Util, Model.Livro, DAO.Conexao.Interfaces;
 
 type
 

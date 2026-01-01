@@ -18,7 +18,7 @@ type
       constructor Create;
       destructor Destroy; override;
       class function New: iConexao;
-      function Connection: TCustomConnection;
+      function Connection: TSQLConnection;
   end;
 
 implementation
@@ -32,9 +32,9 @@ begin
   ExePath := ParamStr(0);
   RootPath := ExtractFileDir(ExePath);
 
-  FConexao := TZConnection.Create(nil);
-  FConexao.Database := RootPath + '\database\MYBOOKS.FDB';
-  FConexao.User := 'SYSDBA';
+  FConexao := TIBConnection.Create(nil);
+  FConexao.DatabaseName := RootPath + '\database\MYBOOKS.FDB';
+  FConexao.UserName := 'SYSDBA';
   FConexao.Password := 'masterkey';
   FConexao.Connected := True;
 end;
@@ -50,7 +50,7 @@ begin
   Result := Self.Create;
 end;
 
-function TDAOConexaoFiredac.Connection: TCustomConnection;
+function TDAOConexaoFiredac.Connection: TSQLConnection;
 begin
   Result := FConexao;
 end;

@@ -34,7 +34,6 @@ inherited FrmEditora: TFrmEditora
     end
   end
   object dsEditora: TDataSource[3]
-    DataSet = DataModule1.QryEditora
     Left = 400
     Top = 214
   end

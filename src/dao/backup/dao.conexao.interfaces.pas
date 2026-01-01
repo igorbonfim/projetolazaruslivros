@@ -22,7 +22,6 @@ type
   iEntidade = interface
     ['{55325106-49A9-4678-BD65-F891242D816C}']
     function Listar(Value: TDataSource): iEntidade;
-    function ListarCampos(Fields: String; DataSource: TDataSource): iEntidade;
   end;
 
 implementation

@@ -508,14 +508,17 @@ object FrmLivros: TFrmLivros
         end      
         item
           Title.Caption = 'Autor'
+          Width = 100
           FieldName = 'AUTOR'
         end      
         item
           Title.Caption = 'Categoria'
+          Width = 100
           FieldName = 'CATEGORIA'
         end      
         item
           Title.Caption = 'Editora'
+          Width = 100
           FieldName = 'EDITORA'
         end      
         item

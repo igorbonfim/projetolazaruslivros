@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, uHeranca, ExtCtrls,
-  DBGrids, Buttons, DataModule, Util, DAO.Conexao.Interfaces, Model.Categoria,
+  DBGrids, Buttons, Util, DAO.Conexao.Interfaces, Model.Categoria,
   uCadCategoria;
 type
 

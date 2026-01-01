@@ -226,6 +226,16 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Model.Livro"/>
       </Unit>
+      <Unit>
+        <Filename Value="src\dao\dao.autor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DAO.Autor"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\controller\controller.autor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Controller.Autor"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

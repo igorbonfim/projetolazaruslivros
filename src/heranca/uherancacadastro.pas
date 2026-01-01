@@ -14,8 +14,8 @@ type
 
   TFrmHerancaCadastro = class(TForm)
     btnCancelar: TSpeedButton;
-    edtID: TDBEdit;
-    edtDescricao: TDBEdit;
+    edtId: TEdit;
+    edtDescricao: TEdit;
     Image1: TImage;
     lblID: TLabel;
     Label2: TLabel;

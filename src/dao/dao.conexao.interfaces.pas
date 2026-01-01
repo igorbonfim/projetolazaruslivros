@@ -17,6 +17,7 @@ type
     ['{193977A8-03C7-4763-B970-EE64FCB147F9}']
     function SQL(Value: String): iQuery;
     function DataSet: TDataSet;
+    function ParamByNameString(Value, Param: String): iQuery;
   end;
 
   iEntidade = interface

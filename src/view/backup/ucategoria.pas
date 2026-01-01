@@ -43,7 +43,6 @@ end;
 procedure TFrmCategoria.btnFecharClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
-  //FreeAndNil(FCategoria);
 end;
 
 procedure TFrmCategoria.btnIncluirClick(Sender: TObject);

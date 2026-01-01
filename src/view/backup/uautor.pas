@@ -37,12 +37,14 @@ uses uPrincipal;
 procedure TFrmAutor.btnFecharClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
-  FreeAndNil(FAutor);
 end;
 
 procedure TFrmAutor.btnIncluirClick(Sender: TObject);
 begin
   Util.CriarAba(TFrmCadastroAutor, FrmPrincipal.pgcPrincipal);
+
+  if (TFrmCadastroAutor.Salvo) then
+    grdListagem.Refresh;
 end;
 
 procedure TFrmAutor.FormCreate(Sender: TObject);

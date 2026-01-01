@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, DAO.Conexao.Interfaces, DAO.Conexao.Firedac,
-  controller.factory.interfaces, SQLDB, IBConnection;
+  SQLDB, IBConnection;
 
 type
 
@@ -23,6 +23,7 @@ type
       class function New(Parent: iConexao): iQuery;
       function SQL(Value: string): iQuery;
       function DataSet: TDataSet;
+      function ParamByNameString(Value: String): String;
   end;
 
 implementation
@@ -66,6 +67,12 @@ end;
 function TDAOQueryFirebird.DataSet: TDataSet;
 begin
   Result := FQuery;
+end;
+
+function TDAOQueryFirebird.ParamByNameString(Value: String): String;
+begin
+  Result := FQuery;
+  FQuery.ParamByName(Value).AsString := Value;
 end;
 
 end.

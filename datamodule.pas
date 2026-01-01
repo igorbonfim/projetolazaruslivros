@@ -16,13 +16,10 @@ type
     Connection: TIBConnection;
     QryCategoriaDESCRICAO: TStringField;
     QryCategoriaID: TLongintField;
-    QryEditora: TSQLQuery;
     QryAutorDESCRICAO: TStringField;
     QryAutorDESCRICAO1: TStringField;
     QryAutorID: TLongintField;
     QryAutorID1: TLongintField;
-    QryCategoria: TSQLQuery;
-    QryLivros: TSQLQuery;
     QryLivrosANO: TStringField;
     QryLivrosDATAAQUISICAO: TDateField;
     QryLivrosID: TLongintField;

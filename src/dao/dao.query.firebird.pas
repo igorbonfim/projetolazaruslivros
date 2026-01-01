@@ -23,6 +23,7 @@ type
       class function New(Parent: iConexao): iQuery;
       function SQL(Value: string): iQuery;
       function DataSet: TDataSet;
+      function ParamByNameString(Value, Param: String): iQuery;
   end;
 
 implementation
@@ -66,6 +67,12 @@ end;
 function TDAOQueryFirebird.DataSet: TDataSet;
 begin
   Result := FQuery;
+end;
+
+function TDAOQueryFirebird.ParamByNameString(Value, Param: String): iQuery;
+begin
+  Result := Self;
+  FQuery.ParamByName(Value).AsString := Param;
 end;
 
 end.

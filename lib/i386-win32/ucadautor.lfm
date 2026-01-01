@@ -1,5 +1,6 @@
 inherited FrmCadastroAutor: TFrmCadastroAutor
   Caption = 'Cadastro de Autor'
+  OnCreate = FormCreate
   inherited pnlTopoCadastro: TPanel
     inherited lblCadastro: TLabel
       Width = 114
@@ -7,8 +8,14 @@ inherited FrmCadastroAutor: TFrmCadastroAutor
     end
   end
   inherited pnlRodape: TPanel
+    inherited btnSalvar: TSpeedButton
+      OnClick = btnSalvarClick
+    end
     inherited btnCancelar: TSpeedButton
       OnClick = btnCancelarClick
     end
+  end
+  inherited edtId: TEdit
+    Enabled = False
   end
 end

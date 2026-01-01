@@ -15,7 +15,7 @@ uses
   uCadAutor, uCadCategoria, uCadEditora, uHeranca, uHerancaCadastro, uAutor,
   uCategoria, uEditora, uLivros, controller.factory.interfaces,
   dao.query.firebird, Controller.Factory.Query, Model.Categoria, Model.Editora,
-  Model.Livro;
+  Model.Livro, DAO.Autor, Controller.Autor;
 
 {$R *.res}
 
@@ -24,6 +24,7 @@ begin
   Application.Scaled:=True;
   Application.Initialize;
   Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.CreateForm(TDataModule1, DataModule1);
   Application.Run;
 end.
 
