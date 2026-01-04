@@ -31,7 +31,35 @@ implementation
 function TDAOAutor.Inserir(Autor: TModelAutor): iEntidade;
 var
   Query: TSQLQuery;
+  Transaction: TSQLTransaction;
+begin
+  try
+    Query := TSQLQuery.Create(nil);
+    Transaction := TSQLTransaction.Create(nil);
+    Query.Transaction := Transaction;
+    Transaction.DataBase := DataModule1.Connection;
+    try
+      Query.SQLConnection := DataModule1.Connection;
+      Query.SQL.Clear;
+      Query.SQL.Add('INSERT INTO AUTOR(DESCRICAO) VALUES(:DESCRICAO)');
+      Query.ParamByName('DESCRICAO').AsString := Autor.Nome;
+      Transaction.StartTransaction;
+      Query.ExecSQL;
+      //Transaction.Active := True;
+      Transaction.Commit;
+      ShowMessage('Autor gravado com sucesso!');
+    except on ex:exception do
+      ShowMessage('Ocorreu um erro ao gravar o autor: ' +ex.Message);
+    end;
+  finally
+    FreeAndNil(Query);
+    FreeAndNil(Transaction);
+  end;
+end;
 
+function TDAOAutor.Atualizar(Autor: TModelAutor): iEntidade;
+var
+  Query: TSQLQuery;
   Transaction: TSQLTransaction;
 begin
   try
@@ -43,24 +71,16 @@ begin
     try
       Query.SQLConnection := DataModule1.Connection;
       Query.SQL.Clear;
-      Query.SQL.Add('INSERT INTO AUTOR(DESCRICAO) VALUES(:DESCRICAO)');
-      Query.ParamByName('DESCRICAO').AsString := Autor.Nome;
+      Query.SQL.Add('UPDATE AUTOR SET NOME = :NOME');
+      Query.ParamByName('NOME').AsString := Autor.Nome;
+      Transaction.StartTransaction;
       Query.ExecSQL;
-      ShowMessage('Autor gravado com sucesso!');
-      Transaction.Active := True;
       Transaction.Commit;
     except on ex:exception do
-      ShowMessage('Ocorreu um erro ao gravar o autor: ' +ex.Message);
+      ShowMessage('Ocorreu um erro ao atualizar o autor: ' +ex.Message);
     end;
   finally
-    FreeAndNil(Query);
-    FreeAndNil(Transaction);
   end;
-end;
-
-function TDAOAutor.Atualizar(Autor: TModelAutor): iEntidade;
-begin
-
 end;
 
 function TDAOAutor.Excluir(Autor: TModelAutor): iEntidade;

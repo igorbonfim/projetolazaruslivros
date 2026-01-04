@@ -42,9 +42,6 @@ end;
 procedure TFrmAutor.btnIncluirClick(Sender: TObject);
 begin
   Util.CriarAba(TFrmCadastroAutor, FrmPrincipal.pgcPrincipal);
-
-  if (TFrmCadastroAutor.Salvo) then
-    grdListagem.Refresh;
 end;
 
 procedure TFrmAutor.FormCreate(Sender: TObject);
