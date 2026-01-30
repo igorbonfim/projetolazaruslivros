@@ -27,7 +27,7 @@ var
 begin
   if aNome = '' then
   begin
-   ShowMessage('Campo nome obrigatório');
+   ShowMessage('Campo descrição obrigatório');
    exit;
   end;
 

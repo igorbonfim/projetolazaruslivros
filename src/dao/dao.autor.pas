@@ -19,7 +19,6 @@ type
       function Inserir(Autor: TModelAutor): iEntidade;
       function Atualizar(Autor: TModelAutor): iEntidade;
       function Excluir(Autor: TModelAutor): iEntidade;
-      function Consultar(Autor: TModelAutor): iEntidade;
       function DataSet: TDataSet;
       function Listar(Value: TDataSource): iEntidade;
   end;
@@ -83,11 +82,6 @@ begin
 end;
 
 function TDAOAutor.Excluir(Autor: TModelAutor): iEntidade;
-begin
-
-end;
-
-function TDAOAutor.Consultar(Autor: TModelAutor): iEntidade;
 begin
 
 end;

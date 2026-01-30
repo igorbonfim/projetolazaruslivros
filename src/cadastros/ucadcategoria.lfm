@@ -7,6 +7,9 @@ inherited FrmCadCategoria: TFrmCadCategoria
     end
   end
   inherited pnlRodape: TPanel
+    inherited btnSalvar: TSpeedButton
+      OnClick = btnSalvarClick
+    end
     inherited btnCancelar: TSpeedButton
       OnClick = btnCancelarClick
     end

@@ -5,7 +5,8 @@ unit uCadCategoria;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, uHerancaCadastro, Util;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, uHerancaCadastro, Util,
+  Controller.Categoria;
 
 type
 
@@ -13,6 +14,7 @@ type
 
   TFrmCadCategoria = class(TFrmHerancaCadastro)
     procedure btnCancelarClick(Sender: TObject);
+    procedure btnSalvarClick(Sender: TObject);
   private
 
   public
@@ -33,6 +35,13 @@ uses uPrincipal;
 procedure TFrmCadCategoria.btnCancelarClick(Sender: TObject);
 begin
   Util.FecharAba(Self.Caption, FrmPrincipal.pgcPrincipal);
+end;
+
+procedure TFrmCadCategoria.btnSalvarClick(Sender: TObject);
+var
+  vControllerCategoria: TControllerCategoria;
+begin
+
 end;
 
 end.

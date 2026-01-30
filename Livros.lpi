@@ -185,6 +185,7 @@
         <Filename Value="src\cadastros\ucadeditora.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmCadEditora"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uCadEditora"/>
       </Unit>
@@ -235,6 +236,16 @@
         <Filename Value="src\controller\controller.autor.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Controller.Autor"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\controller\controller.categoria.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Controller.Categoria"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\dao\dao.categoria.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DAO.Categoria"/>
       </Unit>
     </Units>
   </ProjectOptions>

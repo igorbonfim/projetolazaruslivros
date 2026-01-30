@@ -5,7 +5,7 @@ unit Controller.Autor;
 interface
 
 uses
-  Classes, SysUtils, Model.Autor, DAO.Autor, DAO.Conexao.Interfaces, Dialogs;
+  Classes, SysUtils, Model.Autor, DAO.Autor, DAO.Conexao.Interfaces, Dialogs, StdCtrls;
 
 type
 
@@ -14,6 +14,7 @@ type
   TControllerAutor = class
     public
       function Salvar(aNome: String): iEntidade;
+      procedure ValidaNome(aNome: String; aEdit: TEdit);
   end;
 
 implementation
@@ -25,8 +26,7 @@ var
   vAutor: TModelAutor;
   vDAO: TDAOAutor;
 begin
-  if aNome = '' then
-   ShowMessage('Campo nome obrigatório');
+  ValidaNome(aNome);
 
   vAutor := TModelAutor.Create;
   vDAO := TDAOAutor.Create;
@@ -37,6 +37,16 @@ begin
   finally
     vAutor.Free;
     vDAO.Free;
+  end;
+end;
+
+procedure TControllerAutor.ValidaNome(aNome: String; aEdit: TEdit);
+begin
+  if aNome = '' then
+  begin
+   ShowMessage('Campo descrição obrigatório');
+   aEdit.SetFocus;
+   exit;
   end;
 end;
 

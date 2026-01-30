@@ -45,7 +45,6 @@ begin
       Query.ParamByName('DESCRICAO').AsString := Autor.Nome;
       Transaction.StartTransaction;
       Query.ExecSQL;
-      //Transaction.Active := True;
       Transaction.Commit;
       ShowMessage('Autor gravado com sucesso!');
     except on ex:exception do
@@ -84,11 +83,6 @@ begin
 end;
 
 function TDAOAutor.Excluir(Autor: TModelAutor): iEntidade;
-begin
-
-end;
-
-function TDAOAutor.Consultar(Autor: TModelAutor): iEntidade;
 begin
 
 end;

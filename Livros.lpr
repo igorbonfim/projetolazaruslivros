@@ -15,7 +15,7 @@ uses
   uCadAutor, uCadCategoria, uCadEditora, uHeranca, uHerancaCadastro, uAutor,
   uCategoria, uEditora, uLivros, controller.factory.interfaces,
   dao.query.firebird, Controller.Factory.Query, Model.Categoria, Model.Editora,
-  Model.Livro, DAO.Autor, Controller.Autor;
+  Model.Livro, DAO.Autor, Controller.Autor, Controller.Categoria, DAO.Categoria;
 
 {$R *.res}
 
